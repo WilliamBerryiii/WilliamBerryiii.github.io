@@ -43,7 +43,7 @@ Performed core software asset feature development and design including cross cod
 * Designed and developed low latency parsing module for U.S. and Canadian Driver Licenses, handling over 30M possible data structures, compensating for manufacturing defects, swiping and scanning errors and processing over 125M IDs per year.  Written in C#.
 * Developed highly parallelized testing infrastructure for real-time transaction processing system. C# application uses WCF, and custom byte protocol to interact with remote systems, leverages NHibernate for decision and model variable persistence. System was capable of replaying a client’s entire transaction history by reconstructing original messages from database records.
 
-##### LUCID MOTIONS , , Huntington Beach, CA (2008 - 2011)
+##### LUCID MOTIONS, Huntington Beach, CA (2008 - 2011)
 Boutique entertainment consulting firm specializing in automation and theatrical properties.
 
 ###### Owner &amp; Automation Consultant
