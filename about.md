@@ -8,8 +8,6 @@ In a previous life Bill crafted scenery for Broadway, a la Pirates of Penzance, 
 
 ### Resume
 
-#### WILLIAM R. BERRY
-
 Software Craftsman, specializing in systems architecture, APIs and integration. Motivated and passionate leader with proven track record interacting with diverse internal and external stakeholders.  Deeply curious and savvy technologist that executes on short-term requirements and cultivates long-term visions.
 * Systems Design, Architecture &amp; Integration
 * Software Engineering
