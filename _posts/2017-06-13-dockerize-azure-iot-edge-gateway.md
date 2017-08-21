@@ -50,15 +50,19 @@ integrated device manager to add two test devices, select 'Symetric Keys' and
 have them auto-generated.  Record the device names and primary keys for use in 
 our dockerfile. 
 
-Now create a folder that we can put a dockerfile into.  `mkdir 
-iot-edge-container` sounds nice. 
+Now create a folder that we can put a dockerfile into:  
+```powershell
+mkdir iot-edge-container
+``` 
 
 `cd` into the directory and create a text file called `dockerfile.txt`. 
 
 The first step with our dockerfile will be to declare the base OS we want to 
 use for the image.  In this case we'll do Ubuntu: 
 
-`FROM ubuntu` 
+```dockerfile
+FROM ubuntu
+``` 
 
 Boy that was super hard; glad we got it out of the way. 
 
@@ -69,7 +73,7 @@ you to do the right thing.  Please [see here
 ](https://blog.docker.com/2017/02/docker-secrets-management/)for detailed 
 options from Docker.  So onto those env vars: 
 
-``` 
+```Dockerfile
 # ENV vars for setup 
 ENV IoTHubName {iot_hub_name} 
 ENV IoTHubSuffix azure-devices.net 
@@ -83,12 +87,10 @@ With the environment variables set up, we need to now make sure that the base
 image is up-to-date and all the IoT-Edge project dependencies are installed.  
 Apt-Get will be our friend ... 
 
-``` 
+```Dockerfile
 # Update image 
 RUN apt-get update 
-RUN apt-get --assume-yes install curl build-essential libcurl4-openssl-dev git 
-cmake pkg-config libssl-dev uuid-dev valgrind jq libglib2.0-dev libtool 
-autoconf autogen vim 
+RUN apt-get --assume-yes install curl build-essential libcurl4-openssl-dev git cmake pkg-config libssl-dev uuid-dev valgrind jq libglib2.0-dev libtool autoconf autogen vim 
 ``` 
 
 Please take note that I've intentionally started a flame war by installing vim 
@@ -99,7 +101,7 @@ dynamically populate the Gateway's simulator JSON config file.
 With the image all updated, we can turn our attention to cloning the IoT-Edge 
 repository and kicking off the build: 
 
-``` 
+```Dockerfile
 # Checkout code 
 WORKDIR /usr/src/app 
 RUN git clone https://github.com/Azure/iot-edge.git 
@@ -123,7 +125,7 @@ for the simulated devices ... 2 second intervals will chew through your 8K
 free messages quickly when you can't figure out how to kill your container 
 :-). 
 
-``` 
+```Dockerfile
 # RUN 
 WORKDIR /usr/src/app/iot-edge/build 
 
@@ -170,7 +172,9 @@ ENTRYPOINT J_FILE=$(cat
 With the dockerfile scripted out, we can now create our complete image.  From 
 the previously opened elevated Powershell prompt issue the following command: 
 
-`Get-Content .\Dockerfile.txt | docker build -t iot-edge -` 
+```powershell
+Get-Content .\Dockerfile.txt | docker build -t iot-edge -
+``` 
 
 This will read the dockerfile in and pass it to the Docker build command.  
 Also not that the image will be tagged with 'iot-edge' for easy 
@@ -179,7 +183,9 @@ subsequent runs should leveraging caching and be much faster.
 
 Now for the pièces de résistance! 
 
-`docker run -ti iot-edge` 
+```powershell
+docker run -ti iot-edge
+``` 
 
 The container will fire up, print out the json config file and begin sending 
 telemetry data to Azure!  Wait a few min and refresh the portal to see your 
