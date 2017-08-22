@@ -79,10 +79,6 @@ theme: jekyll-theme-midnight
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-avatar
-  - jemoji
-  - jekyll-mentions
-  - jekyll-include-cache
 
 # Exclude these files from your production _site
 exclude:
