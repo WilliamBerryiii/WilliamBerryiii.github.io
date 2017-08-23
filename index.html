@@ -4,15 +4,16 @@ title: William R. Berry III
 ---
 
 {% for post in paginator.posts %}
+<article class="post">
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  
+  {% include post-tags.html %}
   <div class="content">
-    {{% include post-tags.html %}}
     {{ content }}
   </div>
   <p class="author">
       <span class="date">{{ page.date | date_to_long_string }}</span>
   </p>
+</article>
 {% endfor %}
 
 <!-- Pagination links -->
