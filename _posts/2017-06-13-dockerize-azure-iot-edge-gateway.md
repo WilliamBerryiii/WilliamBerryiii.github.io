@@ -38,7 +38,9 @@ Containers" in the Docker settings, let's leave it with the default "Linux
 Container" setting.  With Docker installed, check and make sure everything is 
 working properly by issuing: 
 
-`docker version` 
+```powershell
+docker version
+``` 
 
 in an elevated Powershell prompt.  This command should return data for both 
 the client and server.  If it doesn't ... there are a copious number of fixes 
@@ -166,7 +168,6 @@ ENTRYPOINT J_FILE=$(cat
     &amp;&amp; 
 ./samples/simulated_device_cloud_upload/simulated_device_cloud_upload_sample 
 ../samples/simulated_device_cloud_upload/src/replaced.json 
-<div> 
 ``` 
 
 With the dockerfile scripted out, we can now create our complete image.  From 
