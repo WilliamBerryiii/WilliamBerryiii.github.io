@@ -73,7 +73,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Set the theme
-theme: jekyll-theme-modernist
+theme: jekyll-theme-tactile
 
 # Use the following plug-ins
 gems:
