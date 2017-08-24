@@ -31,16 +31,13 @@ classes to handle expression parsing, give yourself a week and boom you have a
 functioning IQueryable.  Then you turn on OData, wire up your controller and 
 drop some code that looks like this: 
 
-<pre style="background-color: white; margin: 0em; overflow: auto;"><code 
-style="color: black; font-family: Consolas,&quot;Courier 
-New&quot;,Courier,Monospace; font-size: 10pt;"><span style="color: blue;">var 
-foo = <span style="color: blue;">new QueryableData&lt;Bar&gt;(_provider); 
-<span style="color: blue;">var result = 
-(IQueryable&lt;Bar&gt;)queryOptions.ApplyTo(foo); 
+```csharp
+var foo = new QueryableData<Bar>(_provider); 
+var result = (IQueryable<Bar>)queryOptions.ApplyTo(foo); 
 
-<span style="color: blue;">return <span style="color: blue;">new 
-PageResult&lt;Bar&gt;(result.ToList(), <span style="color: blue;">null, 
-_provider.Count);</code></pre> 
+return new PageResult<Bar>(result.ToList(), null, _provider.Count);
+```
+
 The provider is injected into the controller, passed to the QueryableData 
 source, the OData QueryOptions are applied to the IQueryable and we return the 
 result as a paged data set.  Boom. Slap some $count=true on the end of your 
@@ -49,52 +46,45 @@ urls and Done...
 Not so fast. 
 
 I ran my code with a unit test to see what the $count was going to do.  
-Unexpectedly, I encountered *'cannot convert IQueryable&lt;Bar&gt; to type 
-long'* which had me a bit puzzled.  I had presumed that the count would turn 
+Unexpectedly, I encountered `cannot convert IQueryable<Bar> to type 
+long` which had me a bit puzzled.  I had presumed that the count would turn 
 out to be an expression that needed to be teased from the tree but in this 
 case it appeared to be wrapping the entire tree - the debugger confirmed as 
 much.  As a test, I reversed my logic of passing the count back as an 
 accessory property up the chain to passing the queryable as the accessory and 
 the count of results as the primary return type.  Running the unit test again 
-resulted in yet another confusing error - *'cannot convert type long to 
-IQueryable&lt;Bar&gt;'*. WTF? 
+resulted in yet another confusing error - `cannot convert type long to 
+IQueryable<Bar>`. WTF? 
 
 I reset my breakpoints and stepped through the code again finding a rather 
 cleaver thing.  My expression parser was actually being called *twice*.  Once 
 with the LongCout expression wrapper and then again without it.  A small 
 change to my provider's execute method yielded the correct results: 
 
-<pre style="background-color: white; margin: 0em; overflow: auto;"><code 
-style="color: black; font-family: Consolas,&quot;Courier 
-New&quot;,Courier,Monospace; font-size: 10pt;"><span style="color: blue;">if 
-(Queryable == <span style="color: blue;">null) 
+```csharp
+if (Queryable == null) 
 { 
-    <span style="color: blue;">var isEnumerable = (<span style="color: 
-blue;">typeof(TResult).Name == <span style="color: #a31515;">"IEnumerable`1" 
-|| <span style="color: blue;">typeof(TResult).Name == <span style="color: 
-#a31515;">"Int64"); 
-    <span style="color: blue;">var result = 
-_serviceWrapperContext.Execute(expression, isEnumerable); 
+    var isEnumerable = (typeof(TResult).Name == "IEnumerable`1" 
+                        || typeof(TResult).Name == "Int64"); 
+    var result = _serviceWrapperContext.Execute(expression, isEnumerable); 
 
-    <span style="color: green;">// we dont have a count to contend with so 
-just return the queryable 
-    <span style="color: blue;">if (result.GetType() != <span style="color: 
-blue;">typeof(QueryableCountWrapper)) 
-        <span style="color: blue;">return (TResult)result; 
+    // we dont have a count to contend with so just return the queryable 
+    if (result.GetType() != typeof(QueryableCountWrapper)) 
+        return (TResult)result; 
 
-    <span style="color: blue;">var r = (QueryableCountWrapper)result; 
-    <span style="color: green;">// Is our expression wrapped with a count 
-query? 
-    <span style="color: blue;">if (<span style="color: 
-blue;">typeof(TResult).Name == <span style="color: #a31515;">"Int64") 
+    var r = (QueryableCountWrapper)result; 
+    // Is our expression wrapped with a count query? 
+    if (typeof(TResult).Name == "Int64") 
     { 
         Queryable = r.Queryable; 
-        <span style="color: blue;">return (TResult)r.Count; 
+        return (TResult)r.Count; 
     } 
 
     Count = Int64.Parse(r.Count.ToString()); 
 } 
-<span style="color: blue;">return (TResult)Queryable;</code></pre> 
+return (TResult)Queryable;
+```
+
 Since the provider is an injected dependency of the controller with a per 
 request life time, I am able to use it as a cache of sorts.  The first time 
 through the execute method we will call our service wrapper context to have 

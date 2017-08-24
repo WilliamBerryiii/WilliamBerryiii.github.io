@@ -8,8 +8,6 @@ tags:
 - Hadoop
 - Conference
 modified_time: '2015-02-22T15:40:06.427-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-1766223399521717619
-blogger_orig_url: http://www.lucidmotions.net/2015/02/strata-hadoop-world-2015.html
 ---
 
 Fresh off the plane from a few days at Strata + Hadoop World, I thought I'd 
@@ -116,8 +114,7 @@ trail blazing that is being done daily by teams within the big data
 visualization space.  A quick post presentation chat with Etan Lightstone of 
 New Relic re-introduced the work that Ernest Dichter did for Betty Crocker 
 wherein adding an egg made housewives feel more involved in the process of 
-baking; while relevant this is actually not true ([see 
-here](http://www.bonappetit.com/entertaining-style/pop-culture/article/cake-mix-history)). 
+baking; while relevant this is actually not true ([see here](http://www.bonappetit.com/entertaining-style/pop-culture/article/cake-mix-history)). 
  Either way, the chat did reignite concerns I have about giving users in data 
 driven jobs just enough data to help them draw their own, albeit guided, 
 conclusions. 

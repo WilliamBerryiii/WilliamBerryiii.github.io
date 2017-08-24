@@ -10,22 +10,17 @@ tags:
 - Autism
 modified_time: '2016-04-20T23:33:46.524-07:00'
 thumbnail: https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s72-c/IMG_2605.JPG
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-7645760908505450903
-blogger_orig_url: http://www.lucidmotions.net/2016/04/making-sensory-swing.html
 ---
 
 In a bit of a departure from tech, here's some instructions on making a slick 
 sensory swing for your sensory starved little one. 
 
-Start with a pull-up bar, preferably a bolt together one like [this 
-one](http://www.dickssportinggoods.com/product/index.jsp?productId=13243144) 
-from Dicks: 
-<div class="separator" style="clear: both; text-align: center;">[<img 
-border="0" 
-src="http://www.dickssportinggoods.com/graphics/product_images/pDSP1-13472770dt.jpg" 
-height="200" width="200" 
-/>](http://www.dickssportinggoods.com/graphics/product_images/pDSP1-13472770dt.jpg)We'll 
-take advantage of the extensive number of bolts used to assemble this bar to 
+Start with a pull-up bar, preferably a bolt together one like [this one](http://www.dickssportinggoods.com/product/index.jsp?productId=13243144) 
+from Dicks:
+
+[<img border="0" src="http://www.dickssportinggoods.com/graphics/product_images/pDSP1-13472770dt.jpg" height="200" width="200" />](http://www.dickssportinggoods.com/graphics/product_images/pDSP1-13472770dt.jpg)
+
+We'll take advantage of the extensive number of bolts used to assemble this bar to 
 provide hanging points for the swing. 
 
 The hardware shopping list is pretty straightforward: 
@@ -61,45 +56,20 @@ the pull-up bar.  Now step out of the swing, you look like an idiot ;-)
 Load up your little one and watch the magic unfold; don't forget to show them 
 how to use the webbing to pull themselves up for more bouncy fun. 
 
-<table align="center" cellpadding="0" cellspacing="0" 
-class="tr-caption-container" style="margin-left: auto; margin-right: auto; 
-text-align: center;"><td style="text-align: center;">[<img border="0" 
-height="320" 
-src="https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s320/IMG_2605.JPG" 
-width="240" 
-/>](https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s1600/IMG_2605.JPG)<td 
-class="tr-caption" style="text-align: center;">Assembled Eye Bolt<table 
-cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: 
-left; text-align: left;"><td style="text-align: center;">[<img border="0" 
-height="320" 
-src="https://1.bp.blogspot.com/-gaFrWD1CeOI/Vxhu11zj08I/AAAAAAAAAdA/XF5qvqFrlD4WuOddUt62YymKjQJrE7ZsACKgB/s320/IMG_2607.JPG" 
-width="240" 
-/>](https://1.bp.blogspot.com/-gaFrWD1CeOI/Vxhu11zj08I/AAAAAAAAAdA/XF5qvqFrlD4WuOddUt62YymKjQJrE7ZsACKgB/s1600/IMG_2607.JPG)<td 
-class="tr-caption" style="text-align: center;">Tightening the Nylock<table 
-cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: 
-right; margin-left: 1em; text-align: right;"><td style="text-align: 
-center;">[<img border="0" height="320" 
-src="https://2.bp.blogspot.com/-pszcoF5MugE/VxhutANLAjI/AAAAAAAAAcw/7oydp386k_sJDMeeCT1-Is_VXUJqIXYEgCKgB/s320/IMG_2610.JPG" 
-width="240" 
-/>](https://2.bp.blogspot.com/-pszcoF5MugE/VxhutANLAjI/AAAAAAAAAcw/7oydp386k_sJDMeeCT1-Is_VXUJqIXYEgCKgB/s1600/IMG_2610.JPG)<td 
-class="tr-caption" style="text-align: center;">Seat the Nylock a thread or 
-two<div class="separator" style="clear: both; text-align: center;"> 
-<div class="separator" style="clear: both; text-align: center;"> 
-<table cellpadding="0" cellspacing="0" class="tr-caption-container" 
-style="float: right; margin-left: 1em; text-align: right;"><td 
-style="text-align: center;">[<img border="0" height="320" 
-src="https://3.bp.blogspot.com/-0T99Ad9oGgk/VxhutD-MrzI/AAAAAAAAAcs/yZ6TdoXMGFgv0MZJsMAiY7dbGGIkxZ99QCKgB/s320/IMG_2612.JPG" 
-width="240" 
-/>](https://3.bp.blogspot.com/-0T99Ad9oGgk/VxhutD-MrzI/AAAAAAAAAcs/yZ6TdoXMGFgv0MZJsMAiY7dbGGIkxZ99QCKgB/s1600/IMG_2612.JPG)<td 
-class="tr-caption" style="text-align: center;">Webbing exiting spring<table 
-cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: 
-left; margin-right: 1em; text-align: left;"><td style="text-align: 
-center;">[<img border="0" height="320" 
-src="https://2.bp.blogspot.com/-qtlVp1lxGLk/VxhutJmEloI/AAAAAAAAAco/ueih2doenn4vXolzDlD3ZRY5MYkA-wznACKgB/s320/IMG_2611.JPG" 
-width="240" 
-/>](https://2.bp.blogspot.com/-qtlVp1lxGLk/VxhutJmEloI/AAAAAAAAAco/ueih2doenn4vXolzDlD3ZRY5MYkA-wznACKgB/s1600/IMG_2611.JPG)<td 
-class="tr-caption" style="text-align: center;">Webbing tied off &amp; fished 
-through spring 
+[<img border="0" height="320" src="https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s320/IMG_2605.JPG" width="240" />](https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s1600/IMG_2605.JPG)
+Assembled Eye Bolt
+
+[<img border="0" height="320" src="https://1.bp.blogspot.com/-gaFrWD1CeOI/Vxhu11zj08I/AAAAAAAAAdA/XF5qvqFrlD4WuOddUt62YymKjQJrE7ZsACKgB/s320/IMG_2607.JPG" width="240" />](https://1.bp.blogspot.com/-gaFrWD1CeOI/Vxhu11zj08I/AAAAAAAAAdA/XF5qvqFrlD4WuOddUt62YymKjQJrE7ZsACKgB/s1600/IMG_2607.JPG)
+Tightening the Nylock
+
+[<img border="0" height="320" src="https://2.bp.blogspot.com/-pszcoF5MugE/VxhutANLAjI/AAAAAAAAAcw/7oydp386k_sJDMeeCT1-Is_VXUJqIXYEgCKgB/s320/IMG_2610.JPG" width="240" />](https://2.bp.blogspot.com/-pszcoF5MugE/VxhutANLAjI/AAAAAAAAAcw/7oydp386k_sJDMeeCT1-Is_VXUJqIXYEgCKgB/s1600/IMG_2610.JPG)
+Seat the Nylock a thread or two
+
+[<img border="0" height="320" src="https://3.bp.blogspot.com/-0T99Ad9oGgk/VxhutD-MrzI/AAAAAAAAAcs/yZ6TdoXMGFgv0MZJsMAiY7dbGGIkxZ99QCKgB/s320/IMG_2612.JPG" width="240" />](https://3.bp.blogspot.com/-0T99Ad9oGgk/VxhutD-MrzI/AAAAAAAAAcs/yZ6TdoXMGFgv0MZJsMAiY7dbGGIkxZ99QCKgB/s1600/IMG_2612.JPG)
+Webbing exiting spring
+
+[<img border="0" height="320" src="https://2.bp.blogspot.com/-qtlVp1lxGLk/VxhutJmEloI/AAAAAAAAAco/ueih2doenn4vXolzDlD3ZRY5MYkA-wznACKgB/s320/IMG_2611.JPG" width="240" />](https://2.bp.blogspot.com/-qtlVp1lxGLk/VxhutJmEloI/AAAAAAAAAco/ueih2doenn4vXolzDlD3ZRY5MYkA-wznACKgB/s1600/IMG_2611.JPG)
+Webbing tied off &amp; fished through spring 
 
 
 

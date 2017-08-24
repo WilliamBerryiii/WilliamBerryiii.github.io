@@ -22,9 +22,8 @@ immediate assumption that discussions of cultural change are a response to an
 existing dysfunction or cultural defect.  While there is obviously a just 
 cause for that assumption, and I don't mean to be trite when I say this, I 
 think there is a great opportunity here to think and act differently. 
-<div> 
-<div>May of the great DevOps talks, or 
-[ALM](http://en.wikipedia.org/wiki/Application_lifecycle_management) ones for 
+
+Many of the great DevOps talks, or [ALM](http://en.wikipedia.org/wiki/Application_lifecycle_management) ones for 
 that matter, focus explicitly on addressing defects and dysfunction.  "Want to 
 stop production fires" they say, "give the developer the pager and make them 
 get up at 2 AM."  This is certainly one way to drive change.  Simply force 
@@ -34,8 +33,9 @@ honest account of the impact this technique has had on innovation and the
 willingness of developers to go out on a limb stretching for new solutions.  
 My hunch is that organizations implementing a DevOps culture in a reactionary 
 manor will become dramatically more risk adverse as their workforce turns 
-over.<div> 
-<div>The solution in my mind is for developers to drive the cultural change 
+over.
+
+The solution in my mind is for developers to drive the cultural change 
 out into the organization by assuming responsibility, rather than having it 
 dumped on them.  This approach however is a lengthy process, an evolutionary 
 approach to preparing a business for the future.  Management sponsorship of an 
@@ -44,10 +44,8 @@ ticket to get the ball moving in the right direction. Engineering and
 Operations management can continue to address defects and deficiencies within 
 the organization using existing techniques while simultaneously  empowering 
 developers with the financial and emotional encouragement to improve existing 
-process.<div> 
-<div>For organizations currently in a moment of stasis, this is the perfect 
+process. 
+
+For organizations currently in a moment of stasis, this is the perfect 
 time to begin the transformation in anticipation of changing business 
-climates.  <div><div> 
-<div> 
-<div> 
-<div> 
+climates.

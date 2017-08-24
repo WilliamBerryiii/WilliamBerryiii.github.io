@@ -8,8 +8,6 @@ tags:
 - F#
 - EasyNetQ
 modified_time: '2016-04-21T23:00:15.586-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-8323820745582513056
-blogger_orig_url: http://www.lucidmotions.net/2016/04/easynetq-advanced-bus-from-f.html
 ---
 
 I've been working lately on our company's first production F# application, a 
@@ -41,5 +39,5 @@ wrapping the Advanced Bus in a async block that we can kick off in the main
 body of our service. See 
 [here](https://github.com/EasyNetQ/EasyNetQ/wiki/the-advanced-api) for details 
 on the advanced API of RabbitMq. 
-<script 
-src="https://gist.github.com/WilliamBerryiii/132d7dc6c0571b5907ea0a9f6ad6949b.js"></script> 
+
+<script src="https://gist.github.com/WilliamBerryiii/132d7dc6c0571b5907ea0a9f6ad6949b.js"></script> 
