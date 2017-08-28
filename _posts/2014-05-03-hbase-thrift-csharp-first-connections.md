@@ -16,10 +16,10 @@ buck the trend, this piece is a follow up to [NuGet Servers, HBase, Thrift Code 
 section III and on is important.  Don't forget to check other posts in this 
 series. 
 
-Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
-Part 2 - [HBase, Thrift & C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
-Part 3 - [HBase, Thrift, & C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
-Part 4 - [HBase, Thrift, & C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
+* Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
+* Part 2 - [HBase, Thrift & C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
+* Part 3 - [HBase, Thrift, & C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
+* Part 4 - [HBase, Thrift, & C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
 
  
 Let's take a quick look at establishing connectivity to our HBase Thrift 

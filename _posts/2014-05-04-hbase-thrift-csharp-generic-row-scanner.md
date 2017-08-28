@@ -18,10 +18,10 @@ we will review building our first row scanner by leveraging inheritance and
 generics to provide a broad based solution.  If you have not done so please 
 check out the other parts of the series: 
 
-Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
-Part 2 - [HBase, Thrift & C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
-Part 3 - [HBase, Thrift, & C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
-Part 4 - [HBase, Thrift, & C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
+* Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
+* Part 2 - [HBase, Thrift & C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
+* Part 3 - [HBase, Thrift, & C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
+* Part 4 - [HBase, Thrift, & C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
 
 
 Hopefully you are somewhat familiar with the concepts of No-SQL and the 

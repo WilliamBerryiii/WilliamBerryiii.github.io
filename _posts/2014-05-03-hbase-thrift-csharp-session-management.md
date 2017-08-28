@@ -23,10 +23,10 @@ said, I won't hesitate to talk about how it works and discuss some of it's
 features, in the event you are looking to implement a session manager.   Don't 
 forget to check the other posts in this series. 
 
-Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
-Part 2 - [HBase, Thrift &amp; C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
-Part 3 - [HBase, Thrift, &amp; C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
-Part 4 - [HBase, Thrift, &amp; C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
+* Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
+* Part 2 - [HBase, Thrift &amp; C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
+* Part 3 - [HBase, Thrift, &amp; C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
+* Part 4 - [HBase, Thrift, &amp; C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
 
 The Session Pool Manager (SPM) is actually a collection of interfaces and 
 classes who's end functionality is very similar to that of the ADO.net SQL 
