@@ -35,9 +35,7 @@ Containers" in the Docker settings, let's leave it with the default "Linux
 Container" setting.  With Docker installed, check and make sure everything is 
 working properly by issuing: 
 
-```shell 
-docker version
-``` 
+`docker version` 
 
 in an elevated Powershell prompt.  This command should return data for both 
 the client and server.  If it doesn't ... there are a copious number of fixes 
@@ -51,16 +49,14 @@ our dockerfile.
 
 Now create a folder that we can put a dockerfile into:  
 
-```shell 
-mkdir iot-edge-container
-``` 
+`mkdir iot-edge-container` 
 
 `cd` into the directory and create a text file called `dockerfile.txt`. 
 
 The first step with our dockerfile will be to declare the base OS we want to 
 use for the image.  In this case we'll do Ubuntu: 
 
-```docker
+```Dockerfile
 FROM ubuntu
 ``` 
 
@@ -70,9 +66,11 @@ Next we'll need to add some environment variables to the image.  There are a
 thousand secure ways to do this other than putting our secretes into our 
 dockerfile; but time is of the essence, and that was a disclaimer to encourage 
 you to do the right thing.  Please [see here ](https://blog.docker.com/2017/02/docker-secrets-management/)for detailed 
-options from Docker.  So onto those env vars: 
+options from Docker.  
 
-```docker
+So onto those env vars: 
+
+```Dockerfile
 # ENV vars for setup 
 ENV IoTHubName {iot_hub_name} 
 ENV IoTHubSuffix azure-devices.net 
@@ -86,7 +84,7 @@ With the environment variables set up, we need to now make sure that the base
 image is up-to-date and all the IoT-Edge project dependencies are installed.  
 Apt-Get will be our friend ... 
 
-```docker
+```Dockerfile
 # Update image 
 RUN apt-get update 
 RUN apt-get --assume-yes install curl build-essential libcurl4-openssl-dev git cmake pkg-config libssl-dev uuid-dev valgrind jq libglib2.0-dev libtool autoconf autogen vim 
@@ -100,7 +98,7 @@ dynamically populate the Gateway's simulator JSON config file.
 With the image all updated, we can turn our attention to cloning the IoT-Edge 
 repository and kicking off the build: 
 
-```docker
+```Dockerfile
 # Checkout code 
 WORKDIR /usr/src/app 
 RUN git clone https://github.com/Azure/iot-edge.git 
@@ -124,7 +122,7 @@ for the simulated devices ... 2 second intervals will chew through your 8K
 free messages quickly when you can't figure out how to kill your container 
 :-). 
 
-```docker
+```Dockerfile
 # RUN 
 WORKDIR /usr/src/app/iot-edge/build 
 
