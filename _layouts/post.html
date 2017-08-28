@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
+
 <article class="post">
   <h1>{{ page.title }}</h1>
-  
+
   {% include post-tags.html %}
 
   <div class="entry">
@@ -14,4 +15,5 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  {% include disqus.html %}
 </article>

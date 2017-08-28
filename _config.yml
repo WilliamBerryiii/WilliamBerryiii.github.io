@@ -76,7 +76,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Set the theme
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 
 # Use the following plug-ins
 plugins:
