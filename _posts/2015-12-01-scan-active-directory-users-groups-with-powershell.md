@@ -22,8 +22,7 @@ this as your only form of monitoring AD User and Group Changes!!!
 
 There are effectively two things we want to monitor.  First, we want to 
 look for changes in the Active Directory Schema.  That can be easily 
-accomplished with an already posted UpGuard article, [see 
-here](https://support.scriptrock.com/hc/en-us/articles/204779790-Scan-Options-Scanning-for-changes-in-Active-Directory-schema). 
+accomplished with an already posted UpGuard article, [see here](https://support.scriptrock.com/hc/en-us/articles/204779790-Scan-Options-Scanning-for-changes-in-Active-Directory-schema). 
 
 The next piece is monitoring users and their group memberships.  For that 
 we will use Powershell's built in Active Directory Module that should be 

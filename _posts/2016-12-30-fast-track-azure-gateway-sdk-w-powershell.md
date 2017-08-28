@@ -9,8 +9,6 @@ tags:
 - Powershell
 - Azure IoT Gateway SDK
 modified_time: '2016-12-30T18:07:00.549-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6093041137058051481
-blogger_orig_url: http://www.lucidmotions.net/2016/12/fast-track-azure-gateway-sdk-w-powershell.html
 ---
 
 [<img border="0" height="200" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="200" />](https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png)

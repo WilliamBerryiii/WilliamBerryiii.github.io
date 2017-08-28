@@ -23,8 +23,7 @@ site.
 If course the [dark corners](http://7sharpnine.com/categories/oldstuff/) of 
 Dave Thomas' blog is a wonderful place to get lost. 
 
-Wanna joint the type system debate?  [Start 
-Here](http://cdsmith.wordpress.com/2011/01/09/an-old-article-i-wrote/) 
+Wanna joint the type system debate?  [Start Here](http://cdsmith.wordpress.com/2011/01/09/an-old-article-i-wrote/) 
 
 Some [papers](http://www.math.mcgill.ca/barr/papers/#chronoindex) on topics I 
 am not smart enough to understand, but are good vocabulary builders. 

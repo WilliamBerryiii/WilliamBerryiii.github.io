@@ -10,8 +10,6 @@ tags:
 - Interviewer
 - Behavioral Interview Questions
 modified_time: '2014-04-12T20:23:46.833-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-4408688775305329595
-blogger_orig_url: http://www.lucidmotions.net/2014/04/emotional-and-behavioral-interviewing.html
 ---
 
 Every few months a new article on interviewing or on being the interviewee 
@@ -25,14 +23,16 @@ getting to the interview at a large corporation is less about who you are and
 more about your resume's SEO.  What follows is the first in a series about 
 interviewing, being interviewed, and team building/development. 
 
-<div style="text-align: center;">*** 
+
 Over the years I have worked to develop the "un-interview."  It goes a little 
 something like this: 
-<blockquote>I walk into the room, extend a firm hand shake and wait for the 
-interviewee to introduce themselves. </blockquote><blockquote>Interviewee:  Hi 
-I am <u>(fill in the blank)</u>. 
-Me:   Hi, I am Bill. (pause) Have a set. Let's get started.</blockquote>We are 
-15 seconds into the interview and this is my first chance to get a feel for 
+
+I walk into the room, extend a firm hand shake and wait for the interviewee to introduce themselves.
+
+Interviewee:  Hi I'm <u>(fill in the blank)</u>. 
+Me:   Hi, I am Bill. (pause) Have a set. Let's get started.
+
+We are 15 seconds into the interview and this is my first chance to get a feel for 
 how things are going to proceed.  The binary tree is, Interviewee is nervous 
 or Interviewee is not nervous; but they are actually a bit nervous, unless 
 they plain don't want to be there.  If its clear they don't want to be there, 
@@ -48,7 +48,8 @@ here.
 1. What are some of the things that the company does well. 
 1. What's the biggest challenge that I have had to overcome while working at 
 XYZ 
-<div>Since I am on home turf and have the power in the room, this conversation 
+
+Since I am on home turf and have the power in the room, this conversation 
 time will help even the playing field.  The goal here is to provide context to 
 the interviewee that can be leveraged later in the process.  I will discuss 
 what the company does in detail later; so for this first segment, I keep the 
@@ -60,9 +61,12 @@ was going to be fired; like pack a box fired.  And yes, I admit I have felt
 this way on more than one occasion.  I would wager that most people have a 
 hard time being this honest and airing their dirty laundry with someone they 
 just met; if you can, your risk will almost always be rewarded. 
-<blockquote>Me:  My point is to set the stage for you and give you a feel for 
+
+Me:  My point is to set the stage for you and give you a feel for 
 life here.  Both the positive and negative sides.  So can you tell me a bit 
-about where you're at right now?</blockquote>In every case where I have ended 
+about where you're at right now?
+
+In every case where I have ended 
 up with someone that I truly enjoy working with, this question has been the 
 turning point in the interview.  It's where things pushes past the usual 
 formalities and on to an honest and open conversation.  With this question, 
@@ -79,9 +83,11 @@ is that if the context is not established correctly, an adequate amount of
 intimacy developed, the answers you are going to get will be shallow and 
 meaningless.  By breaking the barriers down and getting personal, you can get 
 past the bullshit answer that both of you know is coming: 
-<blockquote>Interviewee:  Oh there was this person in the department that was 
-really hard to work with and blah, blah, blah...</blockquote>Without the 
-intimacy, this interaction and further behavioral questions are useless, and a 
+
+Interviewee:  Oh there was this person in the department that was 
+really hard to work with and blah, blah, blah...
+
+Without the intimacy, this interaction and further behavioral questions are useless, and a 
 waste of time.  I don't interview for stock answers and and neither should 
 you.  If you are guilty of this … for everyone's sake, stop. 
 
@@ -103,9 +109,12 @@ level specifics; but rather, my personal take on these values and thresholds.
 Additionally, interviewees will often plainly forget to ask for this crucial 
 data.  Once these topics are laid out, I ask the interviewee how it compares 
 to their current situation. 
-<blockquote>Me:  Given how we work, our organization and everything, how does 
+
+Me:  Given how we work, our organization and everything, how does 
 this fit with your experiences and does it sound like we might be a fit for 
-you?</blockquote>Again, I have used talking time to bring intimacy back to the 
+you?
+
+Again, I have used talking time to bring intimacy back to the 
 conversation.  With this question, I am engaging and empowering the 
 interviewee to do "on the spot analysis" and cognitive pattern recognition.  I 
 am looking to see if they can they quickly intake an understanding of our 
@@ -124,16 +133,16 @@ interviewee with a flurry of short questions:
 1. Teach something new? 
 1. Do you think you have skills, and energy to really sink your teeth into 
 this opportunity? 
-<div>Asking these questions with an upbeat and aggressive cadence will reveal 
+
+Asking these questions with an upbeat and aggressive cadence will reveal 
 wether or not the candidate is engaged, and excited about the opportunity.  If 
 the interviewee has bitten and is excited, I end the interview with my gut 
 instinct, telling them I hope to see them around the halls.  If I am not 
 excited then I will not be mean; but, I will be honest.  I will tell them that 
 I appreciated the opportunity to meet them and wish them luck on their 
 journey.  Even though I am not typically the one making the final decision, 
-revealing these subtle clues can help the interviewee gage how they performed. 
+revealing these subtle clues can help the interviewee gage how they performed.  
 
-<div style="text-align: center;">*** 
 With the interview out of the way, lets discuss the thought that's probably 
 crossed your mind.  I never asked a single technical question.  Let me repeat 
 that in *italics* and in **bold** for emphasis, ***I never asked a single 

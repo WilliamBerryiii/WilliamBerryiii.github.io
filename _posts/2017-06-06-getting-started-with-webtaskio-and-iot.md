@@ -8,8 +8,6 @@ tags:
 - Webtask.io
 - IoT
 modified_time: '2017-06-06T10:10:20.093-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-8421420275609080370
-blogger_orig_url: http://www.lucidmotions.net/2017/06/getting-started-with-webtaskio-and-iot.html
 ---
 
 I was in a very interesting workshop this past weekend on 

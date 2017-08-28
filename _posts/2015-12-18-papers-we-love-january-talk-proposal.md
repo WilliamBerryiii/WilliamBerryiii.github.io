@@ -9,11 +9,9 @@ tags:
 - Cloud
 - Talk
 modified_time: '2015-12-18T00:11:07.518-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-1181517595692896575
-blogger_orig_url: http://www.lucidmotions.net/2015/12/papers-we-love-january-talk-proposal.html
 ---
 
-<div class="MsoNormal">Some thirty years after Turing Award winner Fred 
+Some thirty years after Turing Award winner Fred 
 Brooks’ seminal work 'No Silver Bullet' was published, the industry has 
 paved over his enthusiastic skepticism, with an air of pessimism and apathy.  
 After tearing down the failed software development methodologies of our 
@@ -23,10 +21,9 @@ however, you be consumed by an unshakable hopelessness that, as an industry,
 we are bound to Santayana’s Sisyphean prophesy (‘those who don’t learn 
 from history are bound to repeat it’), I will show that Brooks’ theories 
 are alive, well and in fact thriving in niche communities paving our way 
-forward.<o:p></o:p><div class="MsoNormal"> 
-<div class="MsoNormal">--<o:p></o:p> 
-<div class="MsoNormal"> 
-<div class="MsoNormal">In a previous life, Bill (@williamberryiii) crafted 
+forward.
+
+In a previous life, Bill (@williamberryiii) crafted 
 scenery for Broadway, a la Pirates of Penzance, but now crafts software for 
 the enterprise, a la Pirates of Silicon Valley. In his roles as Technical Lead 
 and Application Architect for The Retail Equation, Bill has lead service 
@@ -35,4 +32,3 @@ enjoys building high performance, multi-tenant distributed data APIs. As a
 deeply curious engineer, he enjoys pairing complex problems with simple and 
 elegant solutions. Striving for meaningful change, Bill believes that cultural 
 and technical progress is best made through evolution and not revolution. 
-<o:p></o:p> 

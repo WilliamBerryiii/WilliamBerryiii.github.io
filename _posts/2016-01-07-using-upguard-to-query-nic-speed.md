@@ -43,6 +43,7 @@ Powershell' turned up [this StackOverflow answer](http://stackoverflow.com/a/300
 jump off from. The code simply gets all the network adapter data, filtering on 
 a non-null speed and MAC address setting and then dumps four properties to a 
 table, a'la 
+
 <script src="https://gist.github.com/WilliamBerryiii/bbcb2f2ad902c9f38cdd.js"></script> 
 
 Unfortunately, UpGuard won't be too happy with the formatted table of 

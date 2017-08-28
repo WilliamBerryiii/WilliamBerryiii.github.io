@@ -38,7 +38,7 @@ Since, C# provides extension methods, which can be an enabler of building
 fluent internal DSLs, they seemed like a likely candidate; a few rounds of 
 pseudo-coding later, I had something like this: 
 
-```
+```csharp
 var rule in rules){ 
     foreach(var obj in objects){ 
     return rule.HasTargetId(obj.id) 
@@ -70,7 +70,7 @@ The extension methods, housed in the static class, encapsulate the behavior on
 our data, and are equally as simple and the rules engine.  Let's take a look 
 at one of them: 
 
-```
+```csharp
 public static Rule LessThanMax(this Rule rule, int objectCount){ 
     if(policy == null) return null; 
     return objectCount < rule.MaxCount ? rule : null; 
@@ -92,8 +92,7 @@ about rules engine.  Most importantly ... no nasty nested "if" statements!
 
 For further study, I would highly suggest watching [Scott Wlaschin](https://twitter.com/ScottWlaschin)'s 
 [Railway Oriented Programming](http://vimeo.com/97344498) talk to get some ideas about how you 
-could weave in error handling; or checkout [Tomas Petricek](https://twitter.com/tomaspetricek) & [Jon Skeet](https://twitter.com/jonskeet)'s [Real World Functional 
-Programming](http://www.manning.com/petricek/) book ... in chapter 5 they 
+could weave in error handling; or checkout [Tomas Petricek](https://twitter.com/tomaspetricek) & [Jon Skeet](https://twitter.com/jonskeet)'s [Real World Functional Programming](http://www.manning.com/petricek/) book ... in chapter 5 they 
 cover an implementation of Option Types in C# which would dramatically enhance 
 the naive implementation above. 
 

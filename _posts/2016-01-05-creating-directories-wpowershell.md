@@ -6,8 +6,6 @@ author: William Berry
 tags:
 - Powershell
 modified_time: '2016-01-05T23:44:58.885-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-542702324569412003
-blogger_orig_url: http://www.lucidmotions.net/2016/01/creating-directories-wpowershell.html
 ---
 
 I was recently converting one of my open source projects from Nuget to Paket 
@@ -16,20 +14,26 @@ directory to a project folder.  The leading period is a historical *nix
 technique employed to prevent the 'ls' command from showing the directory when 
 not using the -a flag.  E.G. a folder structured like: 
 
+```
 - projectDirectory 
     | - .vs 
     | - .paket 
     | - Jenkins-FSharp 
+```
 
 The 'ls -a' command would display the following results: 
 
+```shell
 drwxr-----. root root {size} {date} .vs 
 drwxr-----. root root {size} {date} .paket 
 drwxr-----. root root {size} {date} Jenkins-FSharp 
+```
 
 and this using just the 'ls' command without the '-a' option: 
 
+```
 drwxr-----. root root {size} {date} Jenkins-FSharp 
+```
 
 For those of us in the Windows world, the use of a period as a prefix to a 
 folder or a file is a nominal headache that needs to be consistently overcome. 
@@ -46,7 +50,7 @@ open, we have an even more succinct command - 'md .foo'.  'md' is an alias for
 the mkdir cmdlet which leverages the New-Item cmdlet to create your directory. 
 
 In a similar fashion, you could use the more verbose method of calling the 
-New-Item cmdlet directly using the '-Name' and '-ItemType' arguments.  The 
-command looks like 'New-Item -Name {folderName} -ItemType directory'. 
+`New-Item` cmdlet directly using the `-Name` and `-ItemType` arguments.  The 
+command looks like `New-Item -Name {folderName} -ItemType directory`. 
 
-With our new folder created - Happy Codin' &amp; Powershell'in! 
+With our new folder created - Happy Codin' & Powershell'in! 

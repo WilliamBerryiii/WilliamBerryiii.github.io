@@ -8,14 +8,13 @@ tags:
 - This Old House
 - Engineering
 modified_time: '2014-03-28T07:56:33.682-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-3714222670181888913
-blogger_orig_url: http://www.lucidmotions.net/2014/03/last-nights-architecturemadeeasy-tweet.html
+
 ---
 
 Last night's 
 [#ArchitectureMadeEasy](https://twitter.com/search?q=%23ArchitectureMadeEasy&amp;src=typd) 
-tweet included a wonderful little video from the [This Old 
-House](http://www.thisoldhouse.com/toh/) series. 
+tweet included a wonderful little video from the [This Old House](http://www.thisoldhouse.com/toh/) series. 
+
 <blockquote class="twitter-tweet" lang="en">Announcing my new 
 [#tweetumentary](https://twitter.com/search?q=%23tweetumentary&amp;src=hash) 
 software architecture series 
@@ -23,8 +22,9 @@ software architecture series
  [http://t.co/SqaNCbBmCC](http://t.co/SqaNCbBmCC) 
 — William Berry (@williamberryiii) [March 28, 
 2014](https://twitter.com/williamberryiii/statuses/449390498243821570)</blockquote><script 
-async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script> In 
-this medium length clip, we learned how to add a small deck off of our mud 
+async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script> 
+
+In this medium length clip, we learned how to add a small deck off of our mud 
 room or kitchen, that includes a few stairs down to grade.  This clip is the 
 perfect analogy for cutting a new feature into an existing piece of software. 
 

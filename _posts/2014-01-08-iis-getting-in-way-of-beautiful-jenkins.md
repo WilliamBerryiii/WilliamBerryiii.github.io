@@ -12,8 +12,6 @@ tags:
 - Window's Authentication
 - IIS
 modified_time: '2014-01-08T22:03:29.435-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-8053727212155658560
-blogger_orig_url: http://www.lucidmotions.net/2014/01/iis-getting-in-way-of-beautiful-jenkins.html
 ---
 
 My Jenkins installation had turned into a bit of a saga lately.  I have been 

@@ -10,8 +10,6 @@ tags:
 - IoT-Edge
 - Azure IoT Gateway SDK
 modified_time: '2017-06-13T16:59:26.953-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6933621790343635894
-blogger_orig_url: http://www.lucidmotions.net/2017/06/dockerize-azure-iot-edge-gateway.html
 ---
 
 Like most developers in the IoT space, I write code that is typically destined 
@@ -31,8 +29,7 @@ get the gateway up and running in a Linux container on your Windows box using
 Docker. 
 
 Step one is installing Docker on your Windows 10 (Anniversary edition or 
-higher).  Docker provides great [setup 
-instructions](https://docs.docker.com/docker-for-windows/install/) that will 
+higher).  Docker provides great [setup instructions](https://docs.docker.com/docker-for-windows/install/) that will 
 walk you through that whole process.  Though you can switch to using "Windows 
 Containers" in the Docker settings, let's leave it with the default "Linux 
 Container" setting.  With Docker installed, check and make sure everything is 
@@ -53,6 +50,7 @@ have them auto-generated.  Record the device names and primary keys for use in
 our dockerfile. 
 
 Now create a folder that we can put a dockerfile into:  
+
 ```powershell
 mkdir iot-edge-container
 ``` 
@@ -71,8 +69,7 @@ Boy that was super hard; glad we got it out of the way.
 Next we'll need to add some environment variables to the image.  There are a 
 thousand secure ways to do this other than putting our secretes into our 
 dockerfile; but time is of the essence, and that was a disclaimer to encourage 
-you to do the right thing.  Please [see here 
-](https://blog.docker.com/2017/02/docker-secrets-management/)for detailed 
+you to do the right thing.  Please [see here ](https://blog.docker.com/2017/02/docker-secrets-management/)for detailed 
 options from Docker.  So onto those env vars: 
 
 ```Dockerfile
@@ -193,7 +190,6 @@ telemetry data to Azure!  Wait a few min and refresh the portal to see your
 simulated data arriving in IoT Hub from your fancy containerized IoT-Edge 
 Gateway! 
 
-The complete docker file can be found at [this 
-gist](https://gist.github.com/WilliamBerryiii/ee31a154d99130f9bbe472a320d49655). 
+The complete docker file can be found at [this gist](https://gist.github.com/WilliamBerryiii/ee31a154d99130f9bbe472a320d49655). 
 
 Happy Coding! 

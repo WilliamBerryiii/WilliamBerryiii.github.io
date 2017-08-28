@@ -8,8 +8,6 @@ tags:
 - C#
 - PhantomJs
 modified_time: '2014-06-01T13:25:13.862-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6229064329590076049
-blogger_orig_url: http://www.lucidmotions.net/2014/05/csharp-javascript-phantomjs-screenshots.html
 ---
 
 I have a fun little project going on right now that involves taking a portion 
@@ -18,8 +16,7 @@ a picture of the page, and displaying that image in a RDLC report.  There are
 like a ba'gillion different ways to accomplish this, so the below is a 
 hacker's proof of concept. 
 
-<div><div style="text-align: center;">***<div> 
-<div>First up, we are going to need is a very simple web page with the 
+First up, we are going to need is a very simple web page with the 
 following elements: 
 1. A form element with a hidden input "data" that will be used to move data 
 from the primary application to the stub page. 
@@ -27,314 +24,124 @@ from the primary application to the stub page.
 line argument passing to Phantom. 
 1. A button that can be used to trigger a JavaScript function that will in 
 turn draw the page. 
-<!-- HTML generated using hilite.me --> 
-<div style="background: #ffffff; border-width: .1em .1em .1em .8em; border: 
-solid gray; overflow: auto; padding: .2em .6em; width: auto;"><table><td><pre 
-style="line-height: 125%; margin: 0;"> 1 
- 2 
- 3 
- 4 
- 5 
- 6 
- 7 
- 8 
- 9 
-10 
-11 
-12 
-13 
-14 
-15 
-16 
-17 
-18 
-19 
-20 
-21</pre><td><pre style="line-height: 125%; margin: 0;"><span style="color: 
-#557799;">&lt;!DOCTYPE html&gt; 
-<span style="color: #007700;">&lt;html <span style="color: 
-#0000cc;">lang=<span style="background-color: #fff0f0;">"en" <span 
-style="color: #0000cc;">xmlns=<span style="background-color: 
-#fff0f0;">"http://www.w3.org/1999/xhtml"<span style="color: #007700;">&gt; 
-    <span style="color: #007700;">&lt;head&gt; 
-        <span style="color: #007700;">&lt;meta <span style="color: 
-#0000cc;">charset=<span style="background-color: #fff0f0;">"utf-8" <span 
-style="color: #007700;">/&gt; 
-        <span style="color: #007700;">&lt;title&gt;This is my test page<span 
-style="color: #007700;">&lt;/title&gt; 
-        <span style="color: #007700;">&lt;script <span style="color: 
-#0000cc;">src=<span style="background-color: #fff0f0;">"my.js"<span 
-style="color: #007700;">&gt;&lt;/script&gt; 
-    <span style="color: #007700;">&lt;/head&gt; 
-    <span style="color: #007700;">&lt;body <span style="color: 
-#0000cc;">style=<span style="background-color: #fff0f0;">"background-color: 
-white; color: black; font-size: 1em;"<span style="color: #007700;">&gt; 
-        <span style="color: #007700;">&lt;form&gt; 
-            <span style="color: #007700;">&lt;input <span style="color: 
-#0000cc;">id=<span style="background-color: #fff0f0;">"data" <span 
-style="color: #0000cc;">type=<span style="background-color: #fff0f0;">"hidden" 
-<span style="color: #0000cc;">name=<span style="background-color: 
-#fff0f0;">"data" <span style="color: #0000cc;">value=<span 
-style="background-color: #fff0f0;">""<span style="color: #007700;">&gt; 
-            <span style="color: #007700;">&lt;input <span style="color: 
-#0000cc;">id=<span style="background-color: #fff0f0;">"height" <span 
-style="color: #0000cc;">type=<span style="background-color: #fff0f0;">"hidden" 
-<span style="color: #0000cc;">name=<span style="background-color: 
-#fff0f0;">"height" <span style="color: #0000cc;">value=<span 
-style="background-color: #fff0f0;">""<span style="color: #007700;">&gt; 
-            <span style="color: #007700;">&lt;input <span style="color: 
-#0000cc;">id=<span style="background-color: #fff0f0;">"width" <span 
-style="color: #0000cc;">type=<span style="background-color: #fff0f0;">"hidden" 
-<span style="color: #0000cc;">name=<span style="background-color: 
-#fff0f0;">"width" <span style="color: #0000cc;">value=<span 
-style="background-color: #fff0f0;">""<span style="color: #007700;">&gt; 
-            <span style="color: #007700;">&lt;button <span style="color: 
-#0000cc;">id=<span style="background-color: #fff0f0;">"buildFoo" <span 
-style="color: #0000cc;">name=<span style="background-color: 
-#fff0f0;">"buildFoo" 
-             <span style="color: #0000cc;">type=<span style="background-color: 
-#fff0f0;">"button" <span style="color: #0000cc;">value=<span 
-style="background-color: #fff0f0;">"Submit" 
-             <span style="color: #0000cc;">onclick=<span 
-style="background-color: #fff0f0;">" init() " <span style="color: 
-#0000cc;">style=<span style="background-color: #fff0f0;">"visibility: 
-hidden;"<span style="color: #007700;">&gt; 
-      <span style="color: #007700;">&lt;/button&gt; 
-        <span style="color: #007700;">&lt;/form&gt; 
-        <span style="color: #007700;">&lt;div <span style="color: 
-#0000cc;">class=<span style="background-color: #fff0f0;">"container"<span 
-style="color: #007700;">&gt; 
-        <span style="color: #007700;">&lt;/div&gt; 
-    <span style="color: #007700;">&lt;/body&gt; 
-<span style="color: #007700;">&lt;/html&gt; 
-</pre><div> 
+
+```html
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>This is my test page</title>
+        <script src="my.js"></script>
+    </head>
+    <body style="background-color: white; color: black; font-size: 1em;">
+        <form>
+            <input id="data" type="hidden" name="data" value="">
+            <input id="height" type="hidden" name="height" value="">
+            <input id="width" type="hidden" name="width" value="">
+            <button id="buildFoo" name="buildFoo" 
+             type="button" value="Submit" 
+             onclick=" init() " style="visibility: hidden;">
+      </button>
+        </form>
+        <div class="container">
+        </div>
+    </body>
+</html>
+```
+
 Hopefully it's obvious that our Javascript method init() in my.js, will simply 
 plunk everything in the "container" div for display. 
 
-<div style="text-align: center;">*** 
 The next element we need, moving up the stack, is our Javascript runner that 
 we will pass to Phantom, kicking this whole process off.  Make note of the 
 filesystem call for *stumpage.html*; this could be passed in; but, I figured 
 showing a filesystem call might be useful to someone. 
 
-<div><!-- HTML generated using hilite.me --> 
-<div style="background: #ffffff; border-width: .1em .1em .1em .8em; border: 
-solid gray; overflow: auto; padding: .2em .6em; width: auto;"><table><td><pre 
-style="line-height: 125%; margin: 0;"> 1 
- 2 
- 3 
- 4 
- 5 
- 6 
- 7 
- 8 
- 9 
-10 
-11 
-12 
-13 
-14 
-15 
-16 
-17 
-18 
-19 
-20 
-21 
-22 
-23 
-24 
-25 
-26 
-27 
-28 
-29 
-30 
-31 
-32 
-33 
-34 
-35 
-36 
-37 
-38 
-39 
-40 
-41 
-42 
-43 
-44 
-45 
-46 
-47 
-48 
-49 
-50 
-51 
-52 
-53 
-54 
-55 
-56 
-57 
-58 
-59 
-60 
-61 
-62 
-63 
-64 
-65 
-66 
-67 
-68 
-69 
-70 
-71 
-72 
-73 
-74 
-75 
-76 
-77 
-78 
-79 
-80 
-81 
-82 
-83</pre><td><pre style="line-height: 125%; margin: 0;"><span style="color: 
-#008800; font-weight: bold;">var system <span style="color: #333333;">= 
-require(<span style="background-color: #fff0f0;">'system'); 
-<span style="color: #008800; font-weight: bold;">var args <span style="color: 
-#333333;">= require(<span style="background-color: #fff0f0;">'system').args; 
-<span style="color: #008800; font-weight: bold;">var fs <span style="color: 
-#333333;">= require(<span style="background-color: #fff0f0;">'fs'); 
-<span style="color: #008800; font-weight: bold;">var page <span style="color: 
-#333333;">= require(<span style="background-color: 
-#fff0f0;">'webpage').create(); 
+```javascript
+var system = require('system');
+var args = require('system').args;
+var fs = require('fs');
+var page = require('webpage').create();
 
-<span style="color: #888888;">//args[0] is this javascript file. 
-<span style="color: #008800; font-weight: bold;">var height <span 
-style="color: #333333;">= args[<span style="color: #0000dd; font-weight: 
-bold;">1]; 
-<span style="color: #008800; font-weight: bold;">var width <span style="color: 
-#333333;">= args[<span style="color: #0000dd; font-weight: bold;">2]; 
+//args[0] is this javascript file.
+var height = args[1];
+var width = args[2];
 
-<span style="color: #008800; font-weight: bold;">var address <span 
-style="color: #333333;">= <span style="background-color: #fff0f0;">"file:///" 
-<span style="color: #333333;">+ fs.workingDirectory <span style="color: 
-#333333;">+ <span style="background-color: #fff0f0;">"/stubpage.html"; 
-<span style="color: #008800; font-weight: bold;">var data <span style="color: 
-#333333;">= system.stdin.readLine(); 
+var address = "file:///" + fs.workingDirectory + "/stubpage.html";
+var data = system.stdin.readLine();
 
-page.open(address, <span style="color: #008800; font-weight: bold;">function() 
-{ 
+page.open(address, function() {
 
- page.zoomFactor <span style="color: #333333;">= <span style="color: #0000dd; 
-font-weight: bold;">1; 
- page.viewportSize <span style="color: #333333;">= { 
-  width<span style="color: #333333;">: width, 
-  height<span style="color: #333333;">: height 
- }; 
- page.evaluate(<span style="color: #008800; font-weight: bold;">function(data, 
-height, width) { 
-  <span style="color: #888888;">//add the "data" to our page 
-  <span style="color: #008800; font-weight: bold;">var d <span style="color: 
-#333333;">= <span style="color: #007020;">document.getElementById(<span 
-style="background-color: #fff0f0;">'data'); 
-  d.value <span style="color: #333333;">= data; 
-  <span style="color: #888888;">//set the height input 
-  <span style="color: #008800; font-weight: bold;">var h <span style="color: 
-#333333;">= <span style="color: #007020;">document.getElementById(<span 
-style="background-color: #fff0f0;">'height'); 
-  h.value <span style="color: #333333;">= height; 
-  <span style="color: #888888;">//set the width input 
-  <span style="color: #008800; font-weight: bold;">var w <span style="color: 
-#333333;">= <span style="color: #007020;">document.getElementById(<span 
-style="background-color: #fff0f0;">'width'); 
-  w.value <span style="color: #333333;">= width; 
-  <span style="color: #888888;">//click the button to fire the page's JS 
-  <span style="color: #008800; font-weight: bold;">var b <span style="color: 
-#333333;">= <span style="color: #007020;">document.getElementById(<span 
-style="background-color: #fff0f0;">"buildFoo"); 
-  b.click(); 
- }, data, height, width); 
+ page.zoomFactor = 1;
+ page.viewportSize = {
+  width: width,
+  height: height
+ };
+ page.evaluate(function(data, height, width) {
+  //add the "data" to our page
+  var d = document.getElementById('data');
+  d.value = data;
+  //set the height input
+  var h = document.getElementById('height');
+  h.value = height;
+  //set the width input
+  var w = document.getElementById('width');
+  w.value = width;
+  //click the button to fire the page's JS
+  var b = document.getElementById("buildFoo");
+  b.click();
+ }, data, height, width);
 
- waitFor(<span style="color: #008800; font-weight: bold;">function() { 
-  <span style="color: #888888;">//something to wait on ... 
-  <span style="color: #008800; font-weight: bold;">return page.evaluate(<span 
-style="color: #008800; font-weight: bold;">function() { 
-   <span style="color: #888888;">//do we ahve a foo element on the page yet? 
-   <span style="color: #008800; font-weight: bold;">if (<span style="color: 
-#007020;">document.getElementById(<span style="background-color: 
-#fff0f0;">'foo')) { 
-    <span style="color: #008800; font-weight: bold;">return <span 
-style="color: #008800; font-weight: bold;">true; 
-   } <span style="color: #008800; font-weight: bold;">else { 
-    <span style="color: #008800; font-weight: bold;">return <span 
-style="color: #008800; font-weight: bold;">false; 
-   } 
-  }); 
- }, <span style="color: #008800; font-weight: bold;">function() { 
-  <span style="color: #888888;">//take a picture, it lasts longer 
-  <span style="color: #008800; font-weight: bold;">var base64Image <span 
-style="color: #333333;">= page.renderBase64(<span style="background-color: 
-#fff0f0;">'PNG'); 
-  <span style="color: #888888;">//write the image to stdout 
-  system.stdout.write(base64Image); 
-  <span style="color: #007020;">window.phantom.exit(); 
- }); 
-}); 
+ waitFor(function() {
+  //something to wait on ...
+  return page.evaluate(function() {
+   //do we ahve a foo element on the page yet?
+   if (document.getElementById('foo')) {
+    return true;
+   } else {
+    return false;
+   }
+  });
+ }, function() {
+  //take a picture, it lasts longer
+  var base64Image = page.renderBase64('PNG');
+  //write the image to stdout
+  system.stdout.write(base64Image);
+  window.phantom.exit();
+ });
+});
 
-<span style="color: #008800; font-weight: bold;">function waitFor(testFx, 
-onReady, timeOutMillis) { 
- <span style="color: #888888;">// timeout after 10 sec. 
- <span style="color: #008800; font-weight: bold;">var maxtimeOutMillis <span 
-style="color: #333333;">= timeOutMillis <span style="color: #333333;">? 
-timeOutMillis <span style="color: #333333;">: <span style="color: #0000dd; 
-font-weight: bold;">10000, 
-  start <span style="color: #333333;">= <span style="color: #008800; 
-font-weight: bold;">new <span style="color: #007020;">Date().getTime(), 
-  condition <span style="color: #333333;">= <span style="color: #008800; 
-font-weight: bold;">false, 
-  interval <span style="color: #333333;">= setInterval(<span style="color: 
-#008800; font-weight: bold;">function() { 
-   <span style="color: #008800; font-weight: bold;">if ((<span style="color: 
-#008800; font-weight: bold;">new <span style="color: 
-#007020;">Date().getTime() <span style="color: #333333;">- start <span 
-style="color: #333333;">&lt; maxtimeOutMillis) 
-    <span style="color: #333333;">&amp;&amp; <span style="color: 
-#333333;">!condition) { 
-    <span style="color: #888888;">// If not time-out yet 
-    <span style="color: #888888;">// and condition not yet fulfilled 
-    condition <span style="color: #333333;">= (<span style="color: #008800; 
-font-weight: bold;">typeof(testFx) <span style="color: #333333;">=== <span 
-style="background-color: #fff0f0;">"string" 
-     <span style="color: #333333;">? <span style="color: 
-#007020;">eval(testFx) 
-     <span style="color: #333333;">: testFx()); 
-   } <span style="color: #008800; font-weight: bold;">else { 
-    <span style="color: #008800; font-weight: bold;">if (<span style="color: 
-#333333;">!condition) { 
-     <span style="color: #888888;">// If condition still not fulfilled 
-     <span style="color: #888888;">//(timeout but condition is 'false') 
-     phantom.exit(<span style="color: #0000dd; font-weight: bold;">1); 
-    } <span style="color: #008800; font-weight: bold;">else { 
-     <span style="color: #888888;">// Condition fulfilled 
-     <span style="color: #888888;">//(timeout and/or condition is 'true') 
-     <span style="color: #008800; font-weight: bold;">typeof(onReady) <span 
-style="color: #333333;">=== <span style="background-color: #fff0f0;">"string" 
-     <span style="color: #333333;">? <span style="color: 
-#007020;">eval(onReady) 
-     <span style="color: #333333;">: onReady(); 
-     <span style="color: #888888;">//&lt; Stop this interval 
+function waitFor(testFx, onReady, timeOutMillis) {
+ // timeout after 10 sec.
+ var maxtimeOutMillis = timeOutMillis ? timeOutMillis : 10000,
+  start = new Date().getTime(),
+  condition = false,
+  interval = setInterval(function() {
+   if ((new Date().getTime() - start < maxtimeOutMillis) 
+    && !condition) {
+    // If not time-out yet
+    // and condition not yet fulfilled
+    condition = (typeof(testFx) === "string" 
+     ? eval(testFx) 
+     : testFx());
+   } else {
+    if (!condition) {
+     // If condition still not fulfilled 
+     //(timeout but condition is 'false')
+     phantom.exit(1);
+    } else {
+     // Condition fulfilled 
+     //(timeout and/or condition is 'true')
+     typeof(onReady) === "string" 
+     ? eval(onReady) 
+     : onReady();
+     //< Stop this interval
      clearInterval(interval); 
-    } 
-   } 
-  }, <span style="color: #0000dd; font-weight: bold;">250); <span 
-style="color: #888888;">// repeat check every 250ms 
-}; 
-</pre> 
+    }
+   }
+  }, 250); // repeat check every 250ms
+};
+```
 There are quite a few things to note in this file: 
 
 First, lines 7 &amp; 8 are pulling out command line args from the Phantom 
@@ -359,101 +166,45 @@ little example from the Phantom codebase over at GitHub which can be found
 The loop simply waits for a "foo" element to be present on the page then 
 continues on to take the screen shot, write the bytes to stdout and then exit. 
 
-<div style="text-align: center;">*** 
+
 The last piece of the puzzle is starting Phantom in a process and getting our 
 data across stdin to our JS runner above. 
+```csharp
+public static byte[] GetImage(
+                         IEnumerable<Datum> data,
+                         string jsFile
+                     )
+{
+//Path to PhantomJS install, you can add to path, etc.
+const string path = @"C:\Program Files\phantomjs-1.9.7\phantomjs.exe";
+//build command line args, Phantom Runner and height/width args
+var args = new object[] { jsFile, 800, 650 };
+//startup environment for Phantom
+var info = new ProcessStartInfo(path, string.Join(" ", args))
+{
+    RedirectStandardInput = true,
+    RedirectStandardOutput = true,
+    RedirectStandardError = true,
+    UseShellExecute = false,
+    CreateNoWindow = true
+};
+var p = Process.Start(info);
+p.Start();
 
-<div><!-- HTML generated using hilite.me --> 
-<div style="background: #ffffff; border-width: .1em .1em .1em .8em; border: 
-solid gray; overflow: auto; padding: .2em .6em; width: auto;"><table><td><pre 
-style="line-height: 125%; margin: 0;"> 1 
- 2 
- 3 
- 4 
- 5 
- 6 
- 7 
- 8 
- 9 
-10 
-11 
-12 
-13 
-14 
-15 
-16 
-17 
-18 
-19 
-20 
-21 
-22 
-23 
-24 
-25 
-26 
-27 
-28 
-29 
-30 
-31 
-32 
-33</pre><td><pre style="line-height: 125%; margin: 0;"><span style="color: 
-#008800; font-weight: bold;">public <span style="color: #008800; font-weight: 
-bold;">static <span style="color: #333399; font-weight: bold;">byte[] <span 
-style="color: #0066bb; font-weight: bold;">GetImage( 
-                         IEnumerable&lt;Datum&gt; data, 
-                         <span style="color: #333399; font-weight: 
-bold;">string jsFile 
-                     ) 
-{ 
-<span style="color: #888888;">//Path to PhantomJS install, you can add to 
-path, etc. 
-<span style="color: #008800; font-weight: bold;">const <span style="color: 
-#333399; font-weight: bold;">string path = <span style="background-color: 
-#fff0f0;">@"C:\Program Files\phantomjs-1.9.7\phantomjs.exe"; 
-<span style="color: #888888;">//build command line args, Phantom Runner and 
-height/width args 
-<span style="color: #333399; font-weight: bold;">var args = <span 
-style="color: #008800; font-weight: bold;">new <span style="color: #333399; 
-font-weight: bold;">object[] { jsFile, <span style="color: #6600ee; 
-font-weight: bold;">800, <span style="color: #6600ee; font-weight: bold;">650 
-}; 
-<span style="color: #888888;">//startup environment for Phantom 
-<span style="color: #333399; font-weight: bold;">var info = <span 
-style="color: #008800; font-weight: bold;">new ProcessStartInfo(path, <span 
-style="color: #333399; font-weight: bold;">string.Join(<span 
-style="background-color: #fff0f0;">" ", args)) 
-{ 
-    RedirectStandardInput = <span style="color: #008800; font-weight: 
-bold;">true, 
-    RedirectStandardOutput = <span style="color: #008800; font-weight: 
-bold;">true, 
-    RedirectStandardError = <span style="color: #008800; font-weight: 
-bold;">true, 
-    UseShellExecute = <span style="color: #008800; font-weight: bold;">false, 
-    CreateNoWindow = <span style="color: #008800; font-weight: bold;">true 
-}; 
-<span style="color: #333399; font-weight: bold;">var p = Process.Start(info); 
-p.Start(); 
+//open stream, write serialized data, close
+var streamwriter = p.StandardInput;
+streamwriter.WriteLine(JsonConvert.SerializeObject(data.ToList()));
+streamwriter.Close();
 
-<span style="color: #888888;">//open stream, write serialized data, close 
-<span style="color: #333399; font-weight: bold;">var streamwriter = 
-p.StandardInput; 
-streamwriter.WriteLine(JsonConvert.SerializeObject(data.ToList())); 
-streamwriter.Close(); 
+//listen on standard out and read until process exits.
+var stdout = p.StandardOutput.ReadToEnd();
+p.WaitForExit();
 
-<span style="color: #888888;">//listen on standard out and read until process 
-exits. 
-<span style="color: #333399; font-weight: bold;">var stdout = 
-p.StandardOutput.ReadToEnd(); 
-p.WaitForExit(); 
-
-<span style="color: #888888;">//return byte[] of image 
-<span style="color: #008800; font-weight: bold;">return 
-Convert.FromBase64String(stdout); 
+//return byte[] of image
+return Convert.FromBase64String(stdout);
 } 
-</pre> 
+```
+
 We begin our C# method by setting up the path to Phantom (note: you could add 
 Phantom to your path, pass it in so there are no magic consts, etc.).  Next we 
 need to set up the command line arguments for Phantom: 
@@ -465,14 +216,14 @@ need to set up the command line arguments for Phantom:
 Continue by setting up a process environment for Phantom by redirecting 
 Standard In, Out &amp; Error which will enable interaction with Phantom.  The 
 final two process settings are to prevent a window at process launch and the 
-disabling of Shell Execution (see MSDN docs for details on [Shell 
-Execution](http://msdn.microsoft.com/en-us/library/system.diagnostics.processstartinfo.useshellexecute.aspx)) 
+disabling of Shell Execution (see MSDN docs for details on [Shell Execution](http://msdn.microsoft.com/en-us/library/system.diagnostics.processstartinfo.useshellexecute.aspx)) 
 
 With Phantom up and running we can take a reference to the redirected standard 
 input stream, serialize our data over to our Phantom process.  Closing of the 
 input stream will trigger page evaluation over in Phantom. 
 
-## *WARNING* it should be noted that a read of stdin as of Phantom 1.9.7 is a 
+## *WARNING* 
+It should be noted that a read of stdin as of Phantom 1.9.7 is a 
 blocking call.  However, there is a feature request for 2.0 that will make 
 this async by default.  If you are utilizing this technique you will want to 
 defensively block on the stdin read in the event that things change in the 
@@ -483,11 +234,11 @@ WaitForExit method of the process happens after you take a reference to the
 stdout.  The ordering will ensure that you read off all the contents of 
 stdout.  Lastly, convert the string to a byte array and return. 
 
-<div style="text-align: center;">***<div style="text-align: center;"> 
-<div style="text-align: left;">As I noted in the introduction, you could add 
+As I noted in the introduction, you could add 
 your byte array to a dataset, then map an Image element of an RDLC to the 
 dataset, giving you dynamic image content for reports.  You could potentially 
 use this technique in integration tests to ensure that the positions of 
 elements on the page have not moved.  Or even as a simple archiving technique 
-to scrape and save the state of a website.  <div style="text-align: left;"> 
-<div style="text-align: left;">Happy Hacking! 
+to scrape and save the state of a website.  
+
+Happy Hacking! 

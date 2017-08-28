@@ -11,8 +11,6 @@ tags:
 - Jenkins
 - DevOps
 modified_time: '2013-12-30T00:11:55.114-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6813295856311367397
-blogger_orig_url: http://www.lucidmotions.net/2013/12/a-ci-migration-part-ii-convention-over.html
 ---
 
 In this post I want to talk about template builds, stable builds and 
@@ -49,7 +47,8 @@ software.
 1. Packaging should always refer to the latest built artifacts. 
 1. The dev's effort in the build process should be limited to writing unit 
 tests and pushing. 
-<div>There are plenty of ways to approach this.  Given the above requirements, 
+
+There are plenty of ways to approach this.  Given the above requirements, 
 a Kiln SCM and Jenkins for CI tooling, I designed the following approach: 
 1. Dev pushes to remote repository. 
 1. Remote repository fires web hook to waiting Jenkins Management Service. 
@@ -64,12 +63,13 @@ to QA.
 1. Feature is released to Production after QA. 
 1. Deployed code is merged to stable repository, rebuilt and unit tests 
 re-run. 
-<div>In order to achieve this workflow we need a chunk of middleware, the 
+
+In order to achieve this workflow we need a chunk of middleware, the 
 "Jenkins Management Service."  Though Kiln can fire a web hook directly at 
 Jenkins to force a job build, we trade off the ability to make the build job 
 creation automagical for the developer.  Depending on your set up, this direct 
 coupling could be an option, assuming you do not need to have a new job for 
-each feature branch.<div> 
+each feature branch.
 
 To achieve our goal we will create two different Jenkins jobs per repository 
 group.  The first, larger and more complex will be the build for stable. If 

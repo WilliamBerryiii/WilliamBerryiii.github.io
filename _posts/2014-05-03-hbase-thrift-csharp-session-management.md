@@ -11,8 +11,6 @@ tags:
 - Thrift
 - Session Management
 modified_time: '2014-05-17T23:39:25.965-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-826954646952827416
-blogger_orig_url: http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html
 ---
 
 In my last post, [HBase, Thrift &amp; C# - First 
@@ -25,18 +23,11 @@ said, I won't hesitate to talk about how it works and discuss some of it's
 features, in the event you are looking to implement a session manager.   Don't 
 forget to check the other posts in this series. 
 
-Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins 
-CI 
-Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
-Part 2 - [HBase, Thrift &amp; C# - First 
-Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
-Part 3 - [HBase, Thrift, &amp; C# - Managing 
-Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
-Part 4 - [HBase, Thrift, &amp; C# - First Scanner and Leveraging 
-Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
+Part 1 - [NuGet Servers, HBase, Thrift Code Generation and one sweet Jenkins CI Build](http://www.lucidmotions.net/2014/04/nuget-code-generation-jenkins-thrift-hbase.html) 
+Part 2 - [HBase, Thrift &amp; C# - First Connections](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-first-connections.html) 
+Part 3 - [HBase, Thrift, &amp; C# - Managing Sessions](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-session-management.html) 
+Part 4 - [HBase, Thrift, &amp; C# - First Scanner and Leveraging Generics](http://www.lucidmotions.net/2014/05/hbase-thrift-csharp-generic-row-scanner.html) 
 
-<div style="text-align: center;">*** 
-<div style="text-align: center;">*** 
 The Session Pool Manager (SPM) is actually a collection of interfaces and 
 classes who's end functionality is very similar to that of the ADO.net SQL 
 Connection Pool (details 
@@ -51,12 +42,14 @@ implementation a connection to HBase might involve:
 1. Building a client object 
 1. Authentication via basic, kerberos, etc. 
 1. Perhaps prefetching some data to make sure the connection is solid. 
-<div>Each of these steps by itself is inconsequential; but, in an API 
+
+Each of these steps by itself is inconsequential; but, in an API 
 environment where you are constantly serving requests, paying the overhead can 
 quickly become costly.  To combat the overhead we can create N instances of 
 session objects, keep them in a queue and dole them out as needed to 
-callers.<div> 
-<div>There are a few features of the pool manager we need to consider when 
+callers.
+
+There are a few features of the pool manager we need to consider when 
 working with HBase or other DBs that provide multiple routes to the data 
 (think master-master or active-active arangements).  Typically, a thrift 
 server instance will run on each of the region servers in your cluster.  That 
@@ -64,8 +57,9 @@ means that you have multiple machines that can service requests concurrently.
 Assuming that you have taken steps to properly design your row keys and your 
 access patterns are sufficiently random to avoid disk hot spots, you can 
 increase the bandwidth of the cluster by making requests to multiple thrift 
-servers concurrently. <div> 
-<div>In our design we will need a connection object with an interface that can 
+servers concurrently.
+
+In our design we will need a connection object with an interface that can 
 hold the connection details for each of the thrift servers.  For now I simply 
 pull that information out of hard coded values in the web.config for the API.  
 Obviously, the "right" way to do this, is to query another system that can 
@@ -80,8 +74,9 @@ queue of prebuilt and available sessions.  When a caller requests a session,
 we simply pop it off the queue and hand it back to the caller.  As you saw in 
 the previous post, the caller can get the session in a using statement: 
 
-<div><pre><span style="color: blue;">using (var session = 
-_sessionPoolManager.GetSession())</pre> 
+```csharp
+using (var session = _sessionPoolManager.GetSession())
+``` 
 Since our session object implements IDisposable, the session's dispose method 
 will be called as the using statement terminates.  The dispose method closes 
 the open connection and simply calls Requeue(session) on the Pool Manager to 
