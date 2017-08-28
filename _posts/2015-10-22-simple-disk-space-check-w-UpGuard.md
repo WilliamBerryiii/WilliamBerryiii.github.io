@@ -8,13 +8,11 @@ tags:
 - UpGuard
 modified_time: '2016-01-28T09:42:27.487-08:00'
 thumbnail: http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s72-c/DiskSpace.png
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-5748231254014322672
-blogger_orig_url: http://www.lucidmotions.net/2015/10/simple-disk-space-check-w-UpGuard.html
+
 ---
 
-<div class="separator" style="clear: both; text-align: center;">[<img 
-border="0" src="http://i.imgur.com/9VM9qDd.gif" 
-/>](http://i.imgur.com/9VM9qDd.gif)One of the few joys I have at work right 
+[<img border="0" src="http://i.imgur.com/9VM9qDd.gif" />](http://i.imgur.com/9VM9qDd.gif)
+One of the few joys I have at work right 
 now is that IT has given me carte blanche with respect to managing our 
 engineering environment - they keep the power on and the network functioning.  
 One of the few things I detest is that IT has given me carte blanche with 
@@ -33,8 +31,8 @@ is not a horrible waste of time anyway.  So rather than lean on the Task
 Scheduler to help me watch for disk space consumption, I've turned to my 
 trusty installation of UpGuard for a helping hand. 
 
-<script 
-src="https://gist.github.com/WilliamBerryiii/6d91620b8a2ce54614f9.js"></script> 
+<script src="https://gist.github.com/WilliamBerryiii/6d91620b8a2ce54614f9.js"></script> 
+
 The above Powershell simply checks the amount and percentage of free space 
 available on all mounted drives that have a size value.  It returns a bool 
 since UpGuard does not currently allow actions on policy failure.  Ideally you 
@@ -52,11 +50,8 @@ this space scan applied.
 1. Enter the name for the query, enter 'DeviceId' as the Key Name, paste the 
 Powershell into the Query section and accept the change. 
 1. Scroll to the bottom of the scan option pane and press 'Save'. 
-<div class="separator" style="clear: both; text-align: center;">[<img 
-border="0" height="322" 
-src="http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s640/DiskSpace.png" 
-width="640" 
-/>](http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s1600/DiskSpace.png) 
+[<img border="0" height="322" src="http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s640/DiskSpace.png" width="640" />](http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s1600/DiskSpace.png) 
+
 On the next scan of your environment, UpGuard will pickup the baseline for 
 this value and on subsequent scans tasks will be created if the value changes. 
  When/If policies come back with finer grained control, optional scan 

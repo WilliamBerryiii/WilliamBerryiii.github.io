@@ -9,8 +9,6 @@ tags:
 - Jenkins
 - NUnit
 modified_time: '2016-04-19T23:25:28.593-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-5109362814848878754
-blogger_orig_url: http://www.lucidmotions.net/2016/04/integrating-jenkins-and-nunit3.html
 ---
 
 I've long been a fan of the deep integration of JUnit into the Jenkins CI 
@@ -34,5 +32,4 @@ NUnit command line has options that include formatting output,
 So with a simple modification to our NAnt script we can call the NUnit console 
 specifying an output file and the NUnit2 result file format as follows: 
 
-<script 
-src="https://gist.github.com/WilliamBerryiii/64706aa2e98b6d0b7d304546ca63d927.js"></script> 
+<script src="https://gist.github.com/WilliamBerryiii/64706aa2e98b6d0b7d304546ca63d927.js"></script> 

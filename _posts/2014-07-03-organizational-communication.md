@@ -6,13 +6,12 @@ author: William Berry
 tags:
 - Organizational Communication
 modified_time: '2014-07-03T23:23:49.515-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6179887119392316993
-blogger_orig_url: http://www.lucidmotions.net/2014/07/organizational-communication.html
+
 ---
 
 Thoughts on organizational communication ... 
 
-<div style="text-align: center;">*** 
+*** 
 1. Information and data flow within an organization, is as complex as the 
 people that comprise it.  Though the quality of a company's internal 
 communications will be skewed toward the weaker side of it's mean, the able to 
@@ -46,9 +45,7 @@ been delivered from the the top of the org chart all the way down to the
 small part to move the businesses towards its goals. 
 1. There is not such thing as "trickle down" information.  The communication 
 down through the organizational chart needs to be purposeful. 
-1. Take inspiration from the brightest: [How Jack Dorsey Makes Meetings at 
-Square More 
-Transparent](http://www.fastcompany.com/3021208/fast-feed/how-jack-dorsey-makes-meetings-at-square-transparent) 
+1. Take inspiration from the brightest: [How Jack Dorsey Makes Meetings at Square More Transparent](http://www.fastcompany.com/3021208/fast-feed/how-jack-dorsey-makes-meetings-at-square-transparent) 
 1. Leaders communicate with their organizations at the same level they expect 
 it to operate at ... 
 1. If the organization is not moving in the direction you wish, take time to 
@@ -56,10 +53,6 @@ reflect on how you are communicating your goals with the team.  Are you
 developing a sense of urgency in the change  and new direction?  Are you 
 helping inspire ownership in the effort? Are you being authentic with your 
 messaging? 
-<div> 
-<div> 
 
-
-
-<div>*P.S. This is the start of a larger article; but, for now, I am just 
+*P.S. This is the start of a larger article; but, for now, I am just 
 getting my points out there for comment. 

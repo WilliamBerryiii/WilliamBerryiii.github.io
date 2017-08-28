@@ -10,8 +10,7 @@ tags:
 - Azure IoT Gateway SDK
 modified_time: '2017-01-04T15:51:18.565-08:00'
 thumbnail: https://1.bp.blogspot.com/-WahEkTixUxc/WG1NMXDmH-I/AAAAAAAAAi8/vBVdGDWO6tYv6pAygS0urddKD9Njww3PQCLcB/s72-c/iot_hub_create.PNG
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-3510342245638915212
-blogger_orig_url: http://www.lucidmotions.net/2017/01/use-azure-to-viz-plant-floor-data.html
+
 ---
 
 [<img border="0" height="105" src="https://azure.microsoft.com/svghandler/iot-hub/?width=600&amp;height=315" width="200" />](https://azure.microsoft.com/svghandler/iot-hub/?width=600&amp;height=315)

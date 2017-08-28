@@ -7,14 +7,12 @@ tags:
 - Moq
 - Testing
 modified_time: '2015-09-29T00:23:00.906-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-5074276985536072095
-blogger_orig_url: http://www.lucidmotions.net/2015/09/testing-stored-procedure-return-code.html
+
 ---
 
 When modifying legacy code, one of our bigger challenges can be getting tests 
 and test harness worked into the existing structures.  As I noted in my last 
-post on [Timing Method Execution in 
-C#](http://www.lucidmotions.net/2015/09/timing-method-execution-in-csharp.html), 
+post on [Timing Method Execution in C#](http://www.lucidmotions.net/2015/09/timing-method-execution-in-csharp.html), 
 I've been spending quite a bit of time in our repository layer, and part of 
 that work has been adding unit tests to old sections of the code base in 
 preparation for some upcoming refactoring.  Obviously, or maybe not so 
@@ -26,7 +24,7 @@ Think what you will of the approach, our data access is done nearly 100%
 through stored procedure calls, yielding two distinct challenges when 
 attempting to test the code. 
 
-<u>**Challenge 1 **</u> 
+**Challenge 1** 
 The repository makes heavy use of return codes from the stored procedures to 
 drive control flow after a database call.  The return codes are occasionally 
 passed back in ancillary tables, but more often than not they come back as 
@@ -34,7 +32,7 @@ output parameters supplied with the original call to the database, meaning
 setting the return code value to put post database call control flow under 
 test is difficult at best. 
 
-<u>**Challenge 2**</u> 
+**Challenge 2** 
 Again, and not unsurprisingly, the parameter lists for the stored procedure 
 calls are built within the methods that need to be tested.  Each method 
 includes logic to determine whether or not to include a parameter, if so what 
@@ -51,8 +49,8 @@ learn.  The framework has been essential in helping me get my repository code
 under test without having to modify the original code base.  So let's look at 
 a simple example: 
 
-<script 
-src="https://gist.github.com/WilliamBerryiii/3c1eb22fc963cffe6cbf.js"></script> 
+<script src="https://gist.github.com/WilliamBerryiii/3c1eb22fc963cffe6cbf.js"></script> 
+
 Starting off the test are a few local consts that will be helpful to have as a 
 single point of change, a dictionary to store our parameter list and our mock 
 executor defined against the ISqlExecutor interface.  Note that the 
@@ -82,8 +80,6 @@ With the Setup and Callback put together we can then call the method under
 test and begin our stack of assertions - like the final line where we check 
 that the return code meets expectations. 
 
-Lastly, this whole approach could also be mixed with the [NUnit 
-TestCase](http://www.nunit.org/index.php?p=testCase&amp;r=2.5) feature to put 
-the method through its paces, exceptions and all. 
+Lastly, this whole approach could also be mixed with the [NUnit TestCase](http://www.nunit.org/index.php?p=testCase&amp;r=2.5) feature to put the method through its paces, exceptions and all. 
 
 Happy Coding! 

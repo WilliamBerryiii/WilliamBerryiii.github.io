@@ -9,8 +9,7 @@ tags:
 - Development
 - software
 modified_time: '2014-07-13T13:30:35.092-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-4161369035704331615
-blogger_orig_url: http://www.lucidmotions.net/2014/07/craftsmanship-and-role-of-mentoring.html
+
 ---
 
 Dear Diary, 
@@ -25,7 +24,7 @@ on the knee, cut on the arm, covered in dust, mangled handlebars and a bruised
 ego as the skater kids smoking pot under the bridge re-enacted my demise ... I 
 had an epiphany. 
 
-<div style="text-align: center;">*** 
+*** 
 I will eagerly admit that software is thought work.  We developers spend our 
 days solving problems, pushing glyphs from our minds through our fingers and 
 onto compilers.  In some ways the work is decidedly different from our 
@@ -36,12 +35,15 @@ For me, the strongest union between the classical trades and software
 development is the notion of craftsmanship.  In all cases, there is a final 
 work product that reflects design choices, and quality of execution.  Earlier 
 today I tweeted a vary common phrase that most all, in the trades, know dearly 
+
 ... 
+
 <blockquote class="twitter-tweet" lang="en">It's the poor craftsman that 
 blames the tool. 
 — William Berry (@williamberryiii) [July 12, 
 2014](https://twitter.com/williamberryiii/statuses/487998627978416128)</blockquote><script 
 async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script> 
+
 Having been in both the trades and software, it seems to me that developers 
 spend an awful lot of time griping about their tools, from text editors to 
 IDEs to automation, etc.  And to alleviate any further skepticism, I will 
@@ -143,10 +145,14 @@ of the business, depending on who is getting the most value out of the
 training.  If the acquisition of new skills or tooling is ultimately of 
 greater benefit to the craftsman, then it is their responsibility to spend 
 personal time and materials to acquire the skills.  Let me repeat that .... 
-<blockquote>If the acquisition of new skills or tooling is ultimately of 
+
+```
+If the acquisition of new skills or tooling is ultimately of 
 greater benefit to the craftsman, then it is their responsibility to spend 
-personal time and materials to acquire the skills. </blockquote>This assertion 
-comes down more on the side of experience than that of skill; but, in terms of 
+personal time and materials to acquire the skills. 
+```
+
+This assertion comes down more on the side of experience than that of skill; but, in terms of 
 business value, it is still a function of time.  My assertion here is that the 
 distinction between "poor" vs, let's say, "good" craftsmanship is in the 
 expenditure of time; let's take a look at a specific example: 
@@ -156,10 +162,8 @@ Yankee Workshop with Norm Abram (we may have had different childhoods).  If
 you don't, or its been a while since you last saw it ... I highly recommend at 
 least checking out the following episode which is broken into two parts. 
 
-[New Yankee Workshop - Building Jigs Part 
-I](https://www.youtube.com/watch?v=7Lc6ItDd7Q0) 
-[New Yankee Workshop - Building Jigs Part 
-II](https://www.youtube.com/watch?v=_HGwODXgLBo) 
+[New Yankee Workshop - Building Jigs Part I](https://www.youtube.com/watch?v=7Lc6ItDd7Q0) 
+[New Yankee Workshop - Building Jigs Part II](https://www.youtube.com/watch?v=_HGwODXgLBo) 
 
 In this episode, Norm spends an hour of broadcast time, several days of 
 filming, building jigs for various projects.  Construction of even the 

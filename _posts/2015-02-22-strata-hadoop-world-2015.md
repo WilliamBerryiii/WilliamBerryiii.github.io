@@ -93,8 +93,7 @@ easily have been 2005 all over again.  My point here is that the message bus
 in enterprise architecture has found its place and the considerations, such as 
 asynchronicity, decoupling and message schema validation via middleware should 
 be taken into account when building systems with Kafka.  If you are interested 
-in getting a 10K foot overview, check out [this SE-Radio 
-podcast](http://www.se-radio.net/2015/02/episode-219-apache-kafka-with-jun-rao/) 
+in getting a 10K foot overview, check out [this SE-Radio podcast](http://www.se-radio.net/2015/02/episode-219-apache-kafka-with-jun-rao/) 
 on the project.  Last note of caution is that Kafka is not case hardened from 
 a security perspective yet; those features and functionality are however on 
 the roadmap. 
@@ -156,5 +155,4 @@ next year and the ecosystem has see some significant changes then I might bear
 the cost of a flight and hotel room, otherwise I will be finding a different 
 conference for my big data interests. 
 
-Check back next week for a follow-up post on the state of big data post Strata 
-+ Hadoop World. 
+Check back next week for a follow-up post on the state of big data post Strata & Hadoop World. 

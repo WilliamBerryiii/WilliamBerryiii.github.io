@@ -11,8 +11,6 @@ tags:
 - LINQ
 - WebAPI
 modified_time: '2015-05-30T22:43:17.198-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-1465436280772497672
-blogger_orig_url: http://www.lucidmotions.net/2015/05/implementing-count-in-custom-linq.html
 ---
 
 Over the last week I have been working on implementing a custom Linq provider 

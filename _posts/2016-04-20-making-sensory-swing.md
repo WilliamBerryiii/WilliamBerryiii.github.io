@@ -72,24 +72,5 @@ Webbing exiting spring
 Webbing tied off &amp; fished through spring 
 
 
-
-
-
-
-
-
-
-
-<div class="separator" style="clear: both; text-align: center;"> 
-
-
-
-<table align="center" cellpadding="0" cellspacing="0" 
-class="tr-caption-container" style="clear: right; margin-bottom: 1em; 
-margin-left: auto; margin-right: auto; text-align: center;"><td 
-style="text-align: center;">[<img border="0" height="320" 
-src="https://2.bp.blogspot.com/-P6_cb8Flwl8/VxhuvC9SlJI/AAAAAAAAAc0/o4rY8dLZuJ0yuugcbyUy-uFJXPQKR2KcACKgB/s320/IMG_2613.JPG" 
-width="240" 
-/>](https://2.bp.blogspot.com/-P6_cb8Flwl8/VxhuvC9SlJI/AAAAAAAAAc0/o4rY8dLZuJ0yuugcbyUy-uFJXPQKR2KcACKgB/s1600/IMG_2613.JPG)<td 
-class="tr-caption" style="text-align: center;">The swing fully assembled 
-<div class="separator" style="clear: both; text-align: center;"> 
+[<img border="0" height="320" src="https://2.bp.blogspot.com/-P6_cb8Flwl8/VxhuvC9SlJI/AAAAAAAAAc0/o4rY8dLZuJ0yuugcbyUy-uFJXPQKR2KcACKgB/s320/IMG_2613.JPG" width="240" />](https://2.bp.blogspot.com/-P6_cb8Flwl8/VxhuvC9SlJI/AAAAAAAAAc0/o4rY8dLZuJ0yuugcbyUy-uFJXPQKR2KcACKgB/s1600/IMG_2613.JPG)
+The swing fully assembled 

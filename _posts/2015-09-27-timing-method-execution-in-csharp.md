@@ -7,8 +7,7 @@ tags:
 - Performance Monitoring
 - C#
 modified_time: '2015-09-27T22:53:21.326-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-7239784770276903771
-blogger_orig_url: http://www.lucidmotions.net/2015/09/timing-method-execution-in-csharp.html
+
 ---
 
 An awesome tweet from Jessica Kerr rolled by this morning in quite a timely 
@@ -21,6 +20,7 @@ monitoring and automation.&#10;[@skamille](https://twitter.com/skamille)
 Jessica Kerr (@jessitron) [September 26, 
 2015](https://twitter.com/jessitron/status/647787930442932224)</blockquote><script 
 async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 I've been working hard for the last few days to really dial up the 
 instrumentation and telemetry data collection in our primary transaction 
 processing application.  We've always had a sufficient view into the 
@@ -59,16 +59,16 @@ string which are injected to improve testability.  Additionally, we have a
 simple method which will return a 'thingy' from the database given a 
 thingy_id. 
 
-<script 
-src="https://gist.github.com/WilliamBerryiii/a01da8b9f53732bad4b4.js"></script> 
+<script src="https://gist.github.com/WilliamBerryiii/a01da8b9f53732bad4b4.js"></script> 
+
 As I noted above, the goal is to instrument this method, timing the length of 
 the stored procedure call.  The easy way out would be some local state in the 
 class and a standard .Net stopwatch.  I don't have any particular problem with 
 that approach, in fact it's where I started, but the main drawback is the 
 verbosity.  Every method would end up looking like this: 
 
-<script 
-src="https://gist.github.com/WilliamBerryiii/b99e6aceb25f31a380f8.js"></script> 
+<script src="https://gist.github.com/WilliamBerryiii/b99e6aceb25f31a380f8.js"></script> 
+
 Again the approach is not bad, per se, but it is verbose and repetitive if 
 every method needs this change, which in this case we do. 
 
@@ -81,8 +81,8 @@ figure out what we really need from all this, I'd prefer a happy medium.
 
 So what I ended up with was the following: 
 
-<script 
-src="https://gist.github.com/WilliamBerryiii/d444f262444eb8e05249.js"></script> 
+<script src="https://gist.github.com/WilliamBerryiii/d444f262444eb8e05249.js"></script> 
+
 I've added a public property with a backing field that will be used to extract 
 the timing data from our repository class - nothing special there.  Skipping 
 over our data access method for a moment there is a new method at the bottom 
@@ -105,5 +105,4 @@ flexibility throughout an application.  Consider overloading the timer with an
 action delegate too, for even more flexibility ... happy coding! 
 
 P.S. the following link goes to an interesting set of answers to this very 
-problem on Stack Overflow: [wrapping stopwatch timing with a delegate or 
-lambda](http://stackoverflow.com/questions/232848/wrapping-stopwatch-timing-with-a-delegate-or-lambda). 
+problem on Stack Overflow: [wrapping stopwatch timing with a delegate or lambda](http://stackoverflow.com/questions/232848/wrapping-stopwatch-timing-with-a-delegate-or-lambda). 

@@ -11,8 +11,6 @@ tags:
 - Business Metrics
 - Performance
 modified_time: '2015-08-12T00:03:00.571-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-2621988866311546633
-blogger_orig_url: http://www.lucidmotions.net/2015/08/business-kpis.html
 ---
 
 As is not uncommon, I went on a pretty hard Twitter rant the other night. 
@@ -27,11 +25,13 @@ For the sake of accountability I will start each post with my original
 thought, tear it down and then reshape it into the proper thesis it should 
 have been. 
 
-<div style="text-align: center;">***## <u>Number 2</u>Controversial Statement: 
+## Number 2
+Controversial Statement: 
 "Employees cannot evaluate their contributions because KPIs are not broadly 
 accessible." 
 
-<div>What it should have said:<div>"Helping employees correlate their actions 
+What it should have said:
+"Helping employees correlate their actions 
 to improving business metrics is a win-win feedback loop." 
 
 I've never been on a snipe hunt, but my guess is that it's similar to finding 
@@ -64,7 +64,7 @@ only write code", you say or ...
 
 Well, not quite so fast.  Do you actually 'know' why you got that bonus?  Was 
 it all the new features you shipped?  Was it all the bugs you fixed?  Or was 
-it some manager's wishy-washy opinion of your contribution to _________ (fill 
+it some manager's wishy-washy opinion of your contribution to _______ (fill 
 in the blank with revenue, growth, optimization, etc.)?  See my point?  
 Without KPIs you don't know why you got that bonus, and therefore, you don't 
 actually understand the value you or your team brings to your organization. 
@@ -117,5 +117,4 @@ KPIs that you can use to make your organization smarter, faster and leaner ...
 and then at review time, drop the KPI mic for a fat bonus next year! 
 
 
-See Part I here:  [Valuing Developers Over Intellectual 
-Property](http://www.lucidmotions.net/2015/08/value-your-developers.html) 
+See Part I here:  [Valuing Developers Over Intellectual Property](http://www.lucidmotions.net/2015/08/value-your-developers.html) 

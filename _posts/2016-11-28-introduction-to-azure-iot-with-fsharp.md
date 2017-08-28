@@ -12,8 +12,7 @@ tags:
 - F#
 modified_time: '2016-12-03T16:45:39.299-08:00'
 thumbnail: https://4.bp.blogspot.com/-u3COsNP0zc8/WDnCatDRReI/AAAAAAAAAdo/f8FpAYxhu3MeXtgrVLIkY3zZwLLYpPMYgCLcB/s72-c/Create.PNG
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-1852038307453785067
-blogger_orig_url: http://www.lucidmotions.net/2016/11/introduction-to-azure-iot-with-fsharp.html
+
 ---
 
 [<img border="0" src="http://fsharp.org/img/logo/fsharp128.png" />](http://fsharp.org/img/logo/fsharp128.png)
@@ -420,8 +419,7 @@ this process and many features are marked as being in `Preview` and/or
 `Experimental` - keep in mind that some things may be slightly different than 
 shown below. 
 
-In the Portal, select the `+` icon in the top left and search for `Function 
-App`. 
+In the Portal, select the `+` icon in the top left and search for `Function App`. 
 
 [<img border="0" height="352" src="https://2.bp.blogspot.com/-KFl2ApZZXqs/WDxc95j9NYI/AAAAAAAAAfM/O_1VgSwbLywc2ucwClTBMVeNMAWeHh2_wCLcB/s640/Function-App-Select.PNG" width="640" />](https://2.bp.blogspot.com/-KFl2ApZZXqs/WDxc95j9NYI/AAAAAAAAAfM/O_1VgSwbLywc2ucwClTBMVeNMAWeHh2_wCLcB/s1600/Function-App-Select.PNG) 
 
@@ -659,6 +657,7 @@ the libraries, unit test your C# code with F#, build pet projects, build
 complex systems, hell build the next Jet; but most of all, remember to enjoy 
 writing code.  We write F# because it makes coding fun again, it pushes us to 
 be better, it enables us to be better engineers/coders/developers. 
+
 ## Further Exercises1. Create functions across the demo applications that will 
 build the connection string from its elements. 
 

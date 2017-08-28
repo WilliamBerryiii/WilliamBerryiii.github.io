@@ -6,13 +6,11 @@ author: William Berry
 tags:
 - DevOps
 modified_time: '2015-01-02T08:14:20.696-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-7803716601208762997
-blogger_orig_url: http://www.lucidmotions.net/2015/01/developers-and-devops-initiative.html
+
 ---
 
 
-After listening to the most recent [DotNetRocks 
-roundtable](http://www.dotnetrocks.com/default.aspx?showNum=1082) and dozens 
+After listening to the most recent [DotNetRocks roundtable](http://www.dotnetrocks.com/default.aspx?showNum=1082) and dozens 
 of other talks lately on DevOps, there is a presumption that the cultural 
 change is a forgone conclusion, a decision already made by management, 
 emphasized by statements like: “You don’t want it to break in production, 

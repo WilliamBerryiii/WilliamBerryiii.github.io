@@ -9,8 +9,7 @@ tags:
 - DevOps
 - UpGuard
 modified_time: '2016-01-28T09:49:42.480-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6680207448700637856
-blogger_orig_url: http://www.lucidmotions.net/2015/09/preventing-scans-of-upguard-nodes.html
+
 ---
 
 As we move our UpGuard installation into production I have a few security 
@@ -21,23 +20,22 @@ from an old web.config to a new config, the scan could pick up IT eyes only
 data making it available to non-IT analysts with accounts on the appliance.  
 Currently the Scriptrock API does not support a "disable scans" toggle for a 
 node, so lets go hacking! 
-<div style="text-align: center;"><div style="text-align: left;"> 
-<div style="text-align: left;">In the script below we are going to leverage 
+
+In the script below we are going to leverage 
 the fact that we do not currently have any Agent based nodes configured on the 
 appliance, everything thus far is SSH or WinRM.  So for the node being 
 deployed to, the simple fix is to temporarily change the Medium Type to 
 'Agent' while the automation runs.  The script below can be converted into a 
 function that takes a lambda that represents the body of your deployment 
 script, thereby effectively "wrapping" your deployment scripts with this 
-toggle.<div style="text-align: left;"> 
-<div style="text-align: left;"> 
-<script 
-src="https://gist.github.com/WilliamBerryiii/5bf63a2601341ac49b63.js"></script> 
-<div style="text-align: left;"> 
-<div style="text-align: left;">## UPDATE: Alan Sharp-Paul from UpGuard , sent 
+toggle.
+
+<script src="https://gist.github.com/WilliamBerryiii/5bf63a2601341ac49b63.js"></script> 
+
+
+## UPDATE: Alan Sharp-Paul from UpGuard , sent 
 me a tweet to let me know about a feature of the API that can perform a 
-similar function as noted above, that being the [Scheduled 
-Jobs](https://support.scriptrock.com/hc/en-us/articles/204586534-Scheduled-Jobs) 
+similar function as noted above, that being the [Scheduled Jobs](https://support.scriptrock.com/hc/en-us/articles/204586534-Scheduled-Jobs) 
 endpoint.  Depending on how you have set up your environments set up this may 
 work quite well for you.  In our case, we have nodes in an environment that 
 span functionality, so a deployment may not cut across all of them.  Given 

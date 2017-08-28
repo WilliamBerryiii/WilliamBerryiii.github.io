@@ -60,7 +60,9 @@ permalink: /:title/
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
-paginate: 3 
+# this appears to break with tags and all sorts of other problems.
+# disabled for nwo
+#paginate: 5
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:

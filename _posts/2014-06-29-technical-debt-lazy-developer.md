@@ -7,28 +7,29 @@ tags:
 - Development
 - Technical Debt
 modified_time: '2014-06-29T21:49:36.883-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-9178844970113218702
-blogger_orig_url: http://www.lucidmotions.net/2014/06/technical-debt-lazy-developer.html
+
 ---
 
 I have been reflecting over the last few days, what it means to be a "lazy" 
 developer, inclusive of both positive and negative connotations. 
+
 <blockquote class="twitter-tweet" lang="en">I yearn for the day when developer 
 laziness is not the root cause of 
 [#TechnicalDebt](https://twitter.com/hashtag/TechnicalDebt?src=hash). 
 — William Berry (@williamberryiii) [June 27, 
 2014](https://twitter.com/williamberryiii/statuses/482377144048578560)</blockquote> 
-<script async="" charset="utf-8" 
-src="//platform.twitter.com/widgets.js"></script>Yup, that was me, and what I 
+<script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
+
+Yup, that was me, and what I 
 see is manifest in two distinct ways: 
 1. Lazy Loading 
 1. Misaligned priorities, unwillingness to contribute and apathy 
-<div style="text-align: left;">Each or these points is directly resulting in 
+
+Each or these points is directly resulting in 
 the accumulation of technical debt.  These thoughts are by no means localized 
 to software development, the industry just happens to be an easy vehicle of 
 context. 
 
-<div style="text-align: center;">***<div style="text-align: left;"> 
 From my vantage point, lazy loading is that delightful form of efficient 
 procrastination where I don't actually do something until it's needed.  I 
 don't add interfaces until the testing requires it.  I don't leverage 
@@ -68,7 +69,8 @@ of them.
 I have experienced refactoring several existing projects, as well as building 
 a few new ones, where I swore I would not lazy-load the instrumentation ... 
 surprise, still haven't learned (and I bet I am not the only with this 
-issue).<div style="text-align: left;"> 
+issue).
+
 On the flip side, by most accounts, early performance optimization is a waste 
 of time.  Don't fix it, if it ain't broke, right?  What I don't think has been 
 settled officially is when "early", is.  I suggest, that performance go hand 
@@ -95,12 +97,12 @@ maturity required to identify the situations upfront ... it's no wonder why we
 are lazy with the implementation of these components and why so many projects 
 suffer from lazy loaded technical debt. 
 
-<div style="text-align: center;">***<div style="text-align: center;"> 
-<div><blockquote class="twitter-tweet" lang="en">Always endeavor to do the 
+***
+Always endeavor to do the 
 best you possibly can. Acknowledging delivery of anything less is a show of 
 apathy. 
-— William Berry (@williamberryiii) [June 27, 
-2014](https://twitter.com/williamberryiii/statuses/482414563217113088)</blockquote> 
+— William Berry (@williamberryiii) [June 27, 2014](https://twitter.com/williamberryiii/statuses/482414563217113088)
+ 
 Most people easily envision the technical debt that is the byproduct of 
 "common" laziness: poor design choices, deliberately evading standard 
 approaches, partially implemented or hack solutions, etc.  These 
@@ -123,8 +125,8 @@ Often, trust of the end user or implementing developer has been lost or
 compromised, and interest payments here can be very costly. 
 
 One technique for small teams to address documentation issues up front, is to 
-communicate through formal specifications.  Though the [Agile 
-Manifesto](http://agilemanifesto.org/) favors working software over 
+communicate through formal specifications.  Though the [Agile Manifesto](http://agilemanifesto.org/) 
+favors working software over 
 comprehensive documentation, what we are really trying to capture here is 
 execution context, design decisions, encapsulation of complexity, domain 
 modeling and the development of a ubiquitous language. 
@@ -181,8 +183,7 @@ product headed in multiple directions.
 
 The laziness associated with misaligned values is not the fault of the 
 seemingly misdirected employee, but rather with the project lead or the 
-instigator of change.  As is well documented in [Leading 
-Change](http://www.amazon.com/Leading-Change-With-Preface-Author/dp/1422186431/ref=sr_1_1?ie=UTF8&amp;qid=1404005602&amp;sr=8-1&amp;keywords=leading+change+kotter) 
+instigator of change.  As is well documented in [Leading Change](http://www.amazon.com/Leading-Change-With-Preface-Author/dp/1422186431/ref=sr_1_1?ie=UTF8&amp;qid=1404005602&amp;sr=8-1&amp;keywords=leading+change+kotter) 
 by Kotter - the project lead or change initiator is at fault here, simply 
 because they have failed to instill a sufficient sense of urgency to inspire 
 change.  Without reason or sufficient energy, all systems will remain in 
@@ -197,13 +198,14 @@ alignment, but you will need to wait to drive the refactorings until after the
 team has unified it's values.  Any significant addressing of technical debt 
 before alignment, will result in continued divergence, albeit with a smaller 
 delta. 
-<div style="text-align: left;"> 
-<div style="text-align: left;">Being cognizant of laziness within your 
+
+Being cognizant of laziness within your 
 organization and/or teams is the first stepping stone.  Understanding it's 
 various manifestations and coping with or mitigating the side effects is the 
 trump card.  Lastly, don't forget to turn the mirror on yourself.  Are you 
 leading change effectively, setting the guidelines and goals and innovating by 
 example ... if not, don't try to fix your team, before you have taken the time 
 to fix yourself. 
+
 I would appreciate comments and a conversation either here on twitter where 
 you can reach me [@WilliamBerryiii](https://twitter.com/williamberryiii) 

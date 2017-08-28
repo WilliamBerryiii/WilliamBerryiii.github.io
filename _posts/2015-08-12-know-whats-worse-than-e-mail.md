@@ -8,8 +8,6 @@ tags:
 - Open Closed Communication
 - E-mail
 modified_time: '2015-08-12T23:44:33.648-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-6111512433831646519
-blogger_orig_url: http://www.lucidmotions.net/2015/08/know-whats-worse-than-e-mail.html
 ---
 
 As is not uncommon, I went on a pretty hard Twitter rant the other night. 
@@ -24,12 +22,13 @@ For the sake of accountability I will start each post with my original
 thought, tear it down and then reshape it into the proper thesis it should 
 have been. 
 
-<div style="text-align: center;">***## <u>Tweet #3</u>Controversial Statement: 
+## Tweet #3
+Controversial Statement: 
 "Your communication techniques inhibit collaboration and open exchange of 
 ideas. Try open by default, closed by necessity." 
 
-<div>What it should have said:<div>"Your communication techniques inhibit 
-collaboration and open exchange of ideas. Try open by default, closed by 
+What it should have said:
+"Your communication techniques inhibit collaboration and open exchange of ideas. Try open by default, closed by 
 necessity." 
 
 This one I won't apologize for.  If there is one thing that I hate/loath/fear, 
@@ -105,7 +104,5 @@ open by default and private when needed?  In the end, it will make ourselves
 and our organizations more effective, responsive and most importantly, 
 collaborative. 
 
-<div style="text-align: center;">*** 
-In case you missed the beginning, you can find Part 1 here: [Valuing 
-Developers Over Intellectual 
-Property](http://www.lucidmotions.net/2015/08/value-your-developers.html) 
+*** 
+In case you missed the beginning, you can find Part 1 here: [Valuing Developers Over Intellectual Property](http://www.lucidmotions.net/2015/08/value-your-developers.html) 

@@ -8,17 +8,17 @@ tags:
 - Proposal
 - Talk
 modified_time: '2015-10-13T22:27:10.107-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-2852181322063639785
-blogger_orig_url: http://www.lucidmotions.net/2015/08/talk-the-developer-lead-devops-initiative.html
 ---
 
-## Description:DevOps doesn't have to be a decree handed down from on high; in 
+## Description:
+DevOps doesn't have to be a decree handed down from on high; in 
 fact the best initiatives are those that start as grassroots efforts, gain the 
 attention of management and then blossom into self-sustaining cultures.  In 
 this talk we'll explore developer lead DevOps initiatives and how to make them 
 succeed. 
 
-## Abstract:DevOps is not a tool, or a system, or a strategy.  It's not green 
+## Abstract:
+DevOps is not a tool, or a system, or a strategy.  It's not green 
 builds, or automation or the cloud.  It's not Agile, or Lean or Scrum.  It's a 
 culture.  It's shared values.  And most importantly it's the vision of a 
 nimble, high performing organization with enthusiastic collaboration and 

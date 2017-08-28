@@ -9,8 +9,6 @@ tags:
 - Evolution
 - Business Metrics
 modified_time: '2015-09-07T16:12:00.077-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-2355472645784616376
-blogger_orig_url: http://www.lucidmotions.net/2015/09/evolution-not-revolution.html
 ---
 
 As is not uncommon, I went on a pretty hard Twitter rant the other night. 
@@ -25,15 +23,14 @@ For the sake of accountability I will start each post with my original
 thought, tear it down and then reshape it into the proper thesis it should 
 have been. 
 
-<div style="text-align: center;">*** 
+Controversial statement:
+"You don't understand that change is best executed through evolution not revolution."
 
-<div style="text-align: left;">Controversial statement: <div 
-style="text-align: left;">"You don't understand that change is best executed 
-through evolution not revolution."<div style="text-align: left;"> 
-<div style="text-align: left;">What I should have said:<div style="text-align: 
-left;">"Evolutionary thinking leads to a culture of sustainable, perpetual and 
-effective change."<div style="text-align: left;"> 
-<div style="text-align: left;">All organizations are multidimensional.  As an 
+What I should have said:
+"Evolutionary thinking leads to a culture of sustainable, perpetual and 
+effective change."
+
+All organizations are multidimensional.  As an 
 agent of change, it's critical to consider the sum of an organization's 
 vectors.  Given that it's entirely possible overt pressure applied to any one 
 dimension of the business can be adequately countered by another, it is 
@@ -42,8 +39,9 @@ trajectory.  This IS the reason why organizational change is so difficult.
 Reinvigorate customer service without coaxing IT and Engineering to enhance 
 the software that customer service uses to communicate and things quickly 
 falls back to their old ways, even in the face of substantial leadership or 
-process change(read revolution).<div style="text-align: left;"> 
-<div style="text-align: left;">Much of today's software business chatter 
+process change(read revolution).
+
+Much of today's software business chatter 
 continues to drone on about being Agile or Lean or Scrum'ing and the whole 
 space is completely awash with crap.  The basic premise is that we pay someone 
 to come into our organization, teach us a prescriptive approach (or proscribe 
@@ -79,7 +77,5 @@ become glaringly irrelevant as their usefulness wanes?  How do we stop looking
 to copy the success of other organizations in place of finding our own?  If 
 you are thinking at this level then you are probably well on your way ... 
 
-<div style="text-align: center;">*** 
-In case you missed the beginning, you can find Part 1 here: [Valuing 
-Developers Over Intellectual 
-Property](http://www.lucidmotions.net/2015/08/value-your-developers.html) 
+*** 
+In case you missed the beginning, you can find Part 1 here: [Valuing Developers Over Intellectual Property](http://www.lucidmotions.net/2015/08/value-your-developers.html) 

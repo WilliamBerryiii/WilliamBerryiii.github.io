@@ -12,8 +12,6 @@ tags:
 - Azure CLI
 modified_time: '2017-03-04T09:28:44.676-08:00'
 thumbnail: https://3.bp.blogspot.com/-Ypxy4Bugxwg/WLr5QZ2xTRI/AAAAAAAAAl4/-9pv0hgBHnI5qeX0dSVOfZe98AeXziS8wCLcB/s72-c/AzureCli.PNG
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-7190383067023406980
-blogger_orig_url: http://www.lucidmotions.net/2017/03/getting-started-with-azure-cli-v2-and-IoT-Hub.html
 ---
 
 [<img border="0" height="166" src="https://3.bp.blogspot.com/-Ypxy4Bugxwg/WLr5QZ2xTRI/AAAAAAAAAl4/-9pv0hgBHnI5qeX0dSVOfZe98AeXziS8wCLcB/s320/AzureCli.PNG" width="320" />](https://3.bp.blogspot.com/-Ypxy4Bugxwg/WLr5QZ2xTRI/AAAAAAAAAl4/-9pv0hgBHnI5qeX0dSVOfZe98AeXziS8wCLcB/s1600/AzureCli.PNG)
@@ -115,6 +113,6 @@ ConvertFrom-Json | Select-Object -first 1).connectionString
 (ConvertTo-Json $file) | Out-File .\FrontEnd.IotHubClient.json -Encoding ascii 
 ```
 
-Go forth and whip up some of your own Azure CLI &amp; PowerShell magic! 
+Go forth and whip up some of your own Azure CLI & PowerShell magic! 
 
 Happy Coding! 

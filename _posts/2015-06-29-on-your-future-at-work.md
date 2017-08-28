@@ -7,8 +7,6 @@ tags:
 - Management
 - Career
 modified_time: '2015-06-29T23:29:53.631-07:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-1815051462004778518
-blogger_orig_url: http://www.lucidmotions.net/2015/06/on-your-future-at-work.html
 ---
 
 Somehow the impermanence of life in the theater made it OK to talk about "the 
@@ -53,26 +51,17 @@ it's bad for business.
 
 And so the cycle repeats. 
 
-<div style="text-align: center;">***<div style="text-align: center;"> 
-<div style="text-align: left;">This post was inspired by some reading I have 
+This post was inspired by some reading I have 
 been doing of late and I encourage you to check out these wonderful 
 posts/articles/etc.  I don't agree with all of it, but there is plenty of food 
-for thought.<div style="text-align: left;"> 
-<div style="text-align: left;">[Inverting Binary Trees Considered 
-Harmful](http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful)<div 
-style="text-align: left;">[Myth About Women in 
-Science](http://othersociologist.com/2015/04/16/myth-about-women-in-science/)<div 
-style="text-align: left;">[The Guerrilla Guide to 
-Interviewing](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html)<div 
-style="text-align: left;">[Max Howell's Infamous 
-Tweet](https://twitter.com/mxcl/status/608682016205344768?lang=en)<div 
-style="text-align: left;">[Always Be 
-Interviewing](https://medium.com/@xsvengoechea/always-be-interviewing-3cfeec881e2c)<div 
-style="text-align: 
-left;">[#TalkPay](https://twitter.com/search?q=talkpay&amp;src=tyah&amp;lang=en)<div 
-style="text-align: left;">[Stripe Onsite Interviews - Sunday 
-Test](https://stripe.com/jobs/engineering-onsite.pdf)<div style="text-align: 
-left;">[Netflix Culture 
-Slides](http://www.slideshare.net/reed2001/culture-1798664)<div 
-style="text-align: left;">[Ask Your Employees If They Are 
-Happy](https://hbr.org/2013/09/go-ahead-ask-your-employees-if-theyre-happy) 
+for thought.
+
+* [Inverting Binary Trees Considered Harmful](http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful)
+* [Myth About Women in Science](http://othersociologist.com/2015/04/16/myth-about-women-in-science/)
+* [The Guerrilla Guide to Interviewing](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html)
+* [Max Howell's Infamous Tweet](https://twitter.com/mxcl/status/608682016205344768?lang=en)
+* [Always Be Interviewing](https://medium.com/@xsvengoechea/always-be-interviewing-3cfeec881e2c)
+* [#TalkPay](https://twitter.com/search?q=talkpay&amp;src=tyah&amp;lang=en)
+* [Stripe Onsite Interviews - Sunday Test](https://stripe.com/jobs/engineering-onsite.pdf)
+* [Netflix Culture Slides](http://www.slideshare.net/reed2001/culture-1798664)
+* [Ask Your Employees If They Are Happy](https://hbr.org/2013/09/go-ahead-ask-your-employees-if-theyre-happy) 

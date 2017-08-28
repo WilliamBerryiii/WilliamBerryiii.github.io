@@ -11,8 +11,6 @@ tags:
 - DevOps
 - Operations
 modified_time: '2015-02-16T20:36:35.243-08:00'
-blogger_id: tag:blogger.com,1999:blog-4707687462195457004.post-1672297371415803768
-blogger_orig_url: http://www.lucidmotions.net/2015/02/the-devops-cultural-change.html
 ---
 
 Recently, I have been preparing a whole series of blog posts on how developers 

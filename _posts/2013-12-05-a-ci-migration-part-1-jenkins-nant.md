@@ -41,18 +41,18 @@ docs](http://nant.sourceforge.net/release/0.91/help/tasks/get.html) for
 reference and drop this little gem in your script to pull the archived 
 artifacts:
 
-```
-get 
-src="http://jenkins.server.com/job/JobName/lastSuccessfulBuild/artifact/*zip*/archive.zip" 
-dest="{build.current.outputdir}"
+```xml
+<get src="http://jenkins.server.com/job/JobName/lastSuccessfulBuild/artifact/*zip*/archive.zip" dest="{build.current.outputdir}" />
 ```
 And ... Run.
 
+```
 BUILD FAILED
 C:\Foo\Bar\default.build(48,10):
 Unable to download 'http://your.jenkins.server.com/job/JobName/lastSuccessfulBuild/artifact/*zip*/archive.zip' 
 to 'C:\your\working\dir\'. The remote server returned an error: (401) 
 Unauthorized.
+```
 
 Right, pesky authentication. 
 
@@ -124,10 +124,9 @@ There are a few options at this juncture:
 Begin by building up a new target to hold our embedded script and add 
 some error handling:
 
-```
-target name="utility.getartifacts">
-fail message="util.getartifacts requires the outputdir property to be set." 
-unless="${property::exists('outputdir')}"
+```xml
+<target name="utility.getartifacts">
+        <fail message="util.getartifacts requires the outputdir property to be set." unless="${property::exists('outputdir')}" />
 ```
 
 Next we need a script tag and the relevant references and 
@@ -135,7 +134,7 @@ imports for our work.  Since we need to make a network request for our
 compiled artifacts and save them locally to disk we will want the System DLL 
 and bring in the Net and IO namespaces.
 
-```
+```xml
 <script language="C#" prefix="resource" /> 
 <references>
   <include name="System.dll" />
@@ -153,7 +152,7 @@ through *UseDefaultCredentials = true*.  What we are gaining here is the
 ability for the user running our packaging script to have their credentials 
 auto-negotiated by the WebClient.
 
-```
+```xml
 <code>      
 <![CDATA[
   [TaskName("get_artifacts")]            
@@ -192,11 +191,11 @@ The final step is to put everything together into 5 simple calls: build an outpu
 the output file, download the zip of the artifacts, unzip the artifacts, and 
 delete the zip to clean things up.
 
-```
+```xml
 <mkdir dir="${build.current.outputdir}" />
 <property name="build.current.artifacts" value="${project::get-base-directory()}\${build.current.outputdir}\archive.zip" />
 <get_artifacts resourceUrl="http://your.jenkins.server.com/job/JobName/lastSuccessfulBuild/artifact/*zip*/archive.zip" 
-outputFile="C:\your\working\dir\archive.zip />      
+outputFile="C:\your\working\dir\archive.zip" />      
   <unzip zipfile="${build.current.artifacts}" />
   <delete file="${build.current.artifacts}" />
 ```
