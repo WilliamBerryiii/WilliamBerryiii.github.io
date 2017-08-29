@@ -46,7 +46,7 @@ segment of the `Event Hub-compatible endpoint` value (e.g.
 in a moment to hook up our Azure Stream Analytics Job. 
 
 
-[<img border="0" height="272" src="https://4.bp.blogspot.com/-2ERdeJpdEkQ/WG1b0aByl_I/AAAAAAAAAjk/pNOfZDrlzBYukcyrjMREQ1oiPjnYt2N1QCLcB/s400/endpoints.PNG" width="400" />](https://4.bp.blogspot.com/-2ERdeJpdEkQ/WG1b0aByl_I/AAAAAAAAAjk/pNOfZDrlzBYukcyrjMREQ1oiPjnYt2N1QCLcB/s1600/endpoints.PNG)<div> 
+[<img border="0" height="272" src="https://4.bp.blogspot.com/-2ERdeJpdEkQ/WG1b0aByl_I/AAAAAAAAAjk/pNOfZDrlzBYukcyrjMREQ1oiPjnYt2N1QCLcB/s400/endpoints.PNG" width="400" />](https://4.bp.blogspot.com/-2ERdeJpdEkQ/WG1b0aByl_I/AAAAAAAAAjk/pNOfZDrlzBYukcyrjMREQ1oiPjnYt2N1QCLcB/s1600/endpoints.PNG)
 
 Next, we'll need an Azure Stream Analytics(ASA) Job to perform some data 
 scaling on the path toward PowerBI.  While this operation could be performed 
@@ -181,7 +181,7 @@ Add a `Line Chart` to the page and set the following values:
 1. Legend - device-type 
 1. Values - cnt 
 
-[<img border="0" height="400" src="https://3.bp.blogspot.com/-VFbsTrm9TeU/WG16gfYz12I/AAAAAAAAAk4/CmXHfQBuPKkIr40eJ2w7sj97FWIM8m6ZgCLcB/s400/graph-settings.PNG" width="185" />](https://3.bp.blogspot.com/-VFbsTrm9TeU/WG16gfYz12I/AAAAAAAAAk4/CmXHfQBuPKkIr40eJ2w7sj97FWIM8m6ZgCLcB/s1600/graph-settings.PNG
+[<img border="0" height="400" src="https://3.bp.blogspot.com/-VFbsTrm9TeU/WG16gfYz12I/AAAAAAAAAk4/CmXHfQBuPKkIr40eJ2w7sj97FWIM8m6ZgCLcB/s400/graph-settings.PNG" width="185" />](https://3.bp.blogspot.com/-VFbsTrm9TeU/WG16gfYz12I/AAAAAAAAAk4/CmXHfQBuPKkIr40eJ2w7sj97FWIM8m6ZgCLcB/s1600/graph-settings.PNG)
 
 In the Filters menu for the chart, select the datetimestamp field and set 
 the filter type to `Top N` and show the last 20 items.  This will produce a 
@@ -189,6 +189,6 @@ realtime graph of data streaming from the device.  The default polling
 interval should be around 3-4 seconds.  The resulting data will look like 
 this!
 
-[<img border="0" height="211" src="https://4.bp.blogspot.com/-C2MBM0RpndE/WG2ECXVDFYI/AAAAAAAAAlE/wHAIE-mB4YoKae1V7EoNGKs0oQe-eC9gwCLcB/s320/report.PNG" width="320" />](https://4.bp.blogspot.com/-C2MBM0RpndE/WG2ECXVDFYI/AAAAAAAAAlE/wHAIE-mB4YoKae1V7EoNGKs0oQe-eC9gwCLcB/s1600/report.PNG)<div> 
+[<img border="0" height="211" src="https://4.bp.blogspot.com/-C2MBM0RpndE/WG2ECXVDFYI/AAAAAAAAAlE/wHAIE-mB4YoKae1V7EoNGKs0oQe-eC9gwCLcB/s320/report.PNG" width="320" />](https://4.bp.blogspot.com/-C2MBM0RpndE/WG2ECXVDFYI/AAAAAAAAAlE/wHAIE-mB4YoKae1V7EoNGKs0oQe-eC9gwCLcB/s1600/report.PNG)
 
 Happy Coding! 
