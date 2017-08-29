@@ -52,4 +52,4 @@ applied problems concerning group profiling, Big Data and predictive
 analyses.
 
 ## Humor:
-[<img border="0" height="562" src="https://4.bp.blogspot.com/-FwldWSNlcRs/WG_qQ9Ta54I/AAAAAAAAAlc/RmZuIvpdWLEDNGYfaLVpkvnJ0c6b4uURACLcB/s640/C1VJxdPWEAAGy7e.jpg" width="640" />](https://4.bp.blogspot.com/-FwldWSNlcRs/WG_qQ9Ta54I/AAAAAAAAAlc/RmZuIvpdWLEDNGYfaLVpkvnJ0c6b4uURACLcB/s1600/C1VJxdPWEAAGy7e.jpg) 
+[<img border="0" height="562" src="/images/C1VJxdPWEAAGy7e.jpg" width="640" />](/images/C1VJxdPWEAAGy7e.jpg) 
