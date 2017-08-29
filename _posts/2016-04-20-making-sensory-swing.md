@@ -56,21 +56,21 @@ the pull-up bar.  Now step out of the swing, you look like an idiot ;-)
 Load up your little one and watch the magic unfold; don't forget to show them 
 how to use the webbing to pull themselves up for more bouncy fun. 
 
-[<img border="0" height="320" src="https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s320/IMG_2605.JPG" width="240" />](https://4.bp.blogspot.com/-mqZneG6G8EA/Vxhu2LCf72I/AAAAAAAAAc8/sHy3nz2twVI8fIe2AOXsXlIhubib5D0AQCKgB/s1600/IMG_2605.JPG)
+[<img border="0" height="320" src="/images/IMG_2605.JPG" width="240" />](/images/IMG_2605.JPG)
 Assembled Eye Bolt
 
-[<img border="0" height="320" src="https://1.bp.blogspot.com/-gaFrWD1CeOI/Vxhu11zj08I/AAAAAAAAAdA/XF5qvqFrlD4WuOddUt62YymKjQJrE7ZsACKgB/s320/IMG_2607.JPG" width="240" />](https://1.bp.blogspot.com/-gaFrWD1CeOI/Vxhu11zj08I/AAAAAAAAAdA/XF5qvqFrlD4WuOddUt62YymKjQJrE7ZsACKgB/s1600/IMG_2607.JPG)
+[<img border="0" height="320" src="/images/IMG_2607.JPG" width="240" />](/images/IMG_2607.JPG)
 Tightening the Nylock
 
-[<img border="0" height="320" src="https://2.bp.blogspot.com/-pszcoF5MugE/VxhutANLAjI/AAAAAAAAAcw/7oydp386k_sJDMeeCT1-Is_VXUJqIXYEgCKgB/s320/IMG_2610.JPG" width="240" />](https://2.bp.blogspot.com/-pszcoF5MugE/VxhutANLAjI/AAAAAAAAAcw/7oydp386k_sJDMeeCT1-Is_VXUJqIXYEgCKgB/s1600/IMG_2610.JPG)
+[<img border="0" height="320" src="/images/IMG_2610.JPG" width="240" />](/images/IMG_2610.JPG)
 Seat the Nylock a thread or two
 
-[<img border="0" height="320" src="https://3.bp.blogspot.com/-0T99Ad9oGgk/VxhutD-MrzI/AAAAAAAAAcs/yZ6TdoXMGFgv0MZJsMAiY7dbGGIkxZ99QCKgB/s320/IMG_2612.JPG" width="240" />](https://3.bp.blogspot.com/-0T99Ad9oGgk/VxhutD-MrzI/AAAAAAAAAcs/yZ6TdoXMGFgv0MZJsMAiY7dbGGIkxZ99QCKgB/s1600/IMG_2612.JPG)
+[<img border="0" height="320" src="/images/IMG_2612.JPG" width="240" />](/images/IMG_2612.JPG)
 Webbing exiting spring
 
-[<img border="0" height="320" src="https://2.bp.blogspot.com/-qtlVp1lxGLk/VxhutJmEloI/AAAAAAAAAco/ueih2doenn4vXolzDlD3ZRY5MYkA-wznACKgB/s320/IMG_2611.JPG" width="240" />](https://2.bp.blogspot.com/-qtlVp1lxGLk/VxhutJmEloI/AAAAAAAAAco/ueih2doenn4vXolzDlD3ZRY5MYkA-wznACKgB/s1600/IMG_2611.JPG)
+[<img border="0" height="320" src="/images/IMG_2611.JPG" width="240" />](/images/IMG_2611.JPG)
 Webbing tied off &amp; fished through spring 
 
 
-[<img border="0" height="320" src="https://2.bp.blogspot.com/-P6_cb8Flwl8/VxhuvC9SlJI/AAAAAAAAAc0/o4rY8dLZuJ0yuugcbyUy-uFJXPQKR2KcACKgB/s320/IMG_2613.JPG" width="240" />](https://2.bp.blogspot.com/-P6_cb8Flwl8/VxhuvC9SlJI/AAAAAAAAAc0/o4rY8dLZuJ0yuugcbyUy-uFJXPQKR2KcACKgB/s1600/IMG_2613.JPG)
+[<img border="0" height="320" src="/images/IMG_2613.JPG" width="240" />](/images/IMG_2613.JPG)
 The swing fully assembled 

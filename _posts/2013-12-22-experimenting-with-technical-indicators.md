@@ -10,7 +10,7 @@ tags:
 - DevOps
 - Operations
 modified_time: '2013-12-23T00:20:39.476-08:00'
-thumbnail: http://2.bp.blogspot.com/-BbjI2p_DTUg/UraWja7iLbI/AAAAAAAAAQY/Dw9ZX7Gno7E/s72-c/SnipImage.JPG
+thumbnail: /images/SnipImage.JPG
 
 ---
 
@@ -41,7 +41,7 @@ I began with the theory that
 [Bollinger Bands](http://en.wikipedia.org/wiki/Bollinger_Bands) would likely 
 provide a solid starting point given that they are geared toward volatility 
 analysis. 
-[<img border="0" height="185" src="http://2.bp.blogspot.com/-BbjI2p_DTUg/UraWja7iLbI/AAAAAAAAAQY/Dw9ZX7Gno7E/s400/SnipImage.JPG" width="400">](http://2.bp.blogspot.com/-BbjI2p_DTUg/UraWja7iLbI/AAAAAAAAAQY/Dw9ZX7Gno7E/s1600/SnipImage.JPG)
+[<img border="0" height="185" src="/images/SnipImage.JPG" width="400">](/images/SnipImage.JPG)
 
 As you can see, the 
 Bollinger Bands would not have given confirmation of the impact of our issue, 
@@ -53,7 +53,7 @@ the slow signaling from this daily aggregation, I moved on.
 Next up on the docket was to try a [stochastic oscillator](http://en.wikipedia.org/wiki/Stochastic_oscillator), figuring that 
 the change in momentum might yield some key visual indicator.
 
-[<img border="0" height="77" src="http://2.bp.blogspot.com/-qr0uPhUzza4/UraYA5ULuLI/AAAAAAAAAQk/Ibqlj3D0pjo/s400/SnipImage1.JPG" width="400">](http://2.bp.blogspot.com/-qr0uPhUzza4/UraYA5ULuLI/AAAAAAAAAQk/Ibqlj3D0pjo/s1600/SnipImage1.JPG)
+[<img border="0" height="77" src="/images/SnipImage1.JPG" width="400">](/images/SnipImage1.JPG)
 
 Unfortunately, this 
 chart is next to useless.  I honestly have no clue what it is trying to tell 
@@ -66,7 +66,7 @@ two period moving average and overlaid histogram would show "fast" changes in
 trend better than the Bollinger Bands.  Judging by the image blow I think my 
 conclusions are right.  
 
-[<img border="0" height="95" src="http://4.bp.blogspot.com/-udrAzAb35nk/UraZdsOelGI/AAAAAAAAAQw/L4y1QtuM6y4/s400/SnipImage2.JPG" width="400">](http://4.bp.blogspot.com/-udrAzAb35nk/UraZdsOelGI/AAAAAAAAAQw/L4y1QtuM6y4/s1600/SnipImage2.JPG)
+[<img border="0" height="95" src="/images/SnipImage2.JPG" width="400">](/images/SnipImage2.JPG)
 
 We would have received positive confirmation of the issue by mid November, mainly due to 
 this indicator's simplicity.  It's easy to calculate. And easy to read.  

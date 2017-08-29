@@ -12,7 +12,7 @@ tags:
 - DevOps
 - Web Hooks
 modified_time: '2014-02-10T22:01:54.241-08:00'
-thumbnail: http://1.bp.blogspot.com/-Ld73hmNt4KE/UrE7rPQARHI/AAAAAAAAAQI/hjjJxaFxV10/s72-c/SnipImage.JPG
+thumbnail: /images/SnipImage.JPG
 
 ---
 
@@ -28,7 +28,7 @@ help
  For our integration we will be using a custom web hook; in you admin panel 
 select web hooks and a new hook for all repositories. 
 
-[<img border="0" src="http://1.bp.blogspot.com/-Ld73hmNt4KE/UrE7rPQARHI/AAAAAAAAAQI/hjjJxaFxV10/s320/SnipImage.JPG" height="313" width="320" />](http://1.bp.blogspot.com/-Ld73hmNt4KE/UrE7rPQARHI/AAAAAAAAAQI/hjjJxaFxV10/s1600/SnipImage.JPG)
+[<img border="0" src="/images/SnipImage.JPG" height="313" width="320" />](/images/SnipImage.JPG)
 Once configured, Kiln will fire off a blob of JSON for a waiting web service 
 to do something with.  We will primarily be interested in the pusher data, the 
 repository group and the repository in the web hook data, though there is a 

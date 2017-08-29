@@ -7,7 +7,7 @@ tags:
 - Learning
 - Functional Programming
 modified_time: '2014-04-02T21:44:52.228-07:00'
-thumbnail: http://3.bp.blogspot.com/-0orXoTiWQ1M/Ut83pB1wUDI/AAAAAAAAARU/OTXimPPQ4SE/s72-c/photo.JPG
+thumbnail: /images/photo.JPG
 
 ---
 
@@ -22,7 +22,7 @@ programming.  That's a little unfair, it was actually functional programming
 that pushed me over the edge; but, I was headed to the cliff long before.  The 
 image below is the foundation of my issues:<
 
-[<img border="0" src="http://3.bp.blogspot.com/-0orXoTiWQ1M/Ut83pB1wUDI/AAAAAAAAARU/OTXimPPQ4SE/s1600/photo.JPG" height="240" width="320" />](http://3.bp.blogspot.com/-0orXoTiWQ1M/Ut83pB1wUDI/AAAAAAAAARU/OTXimPPQ4SE/s1600/photo.JPG)
+[<img border="0" src="/images/photo.JPG" height="240" width="320" />](/images/photo.JPG)
 
 Not only do I have a dozen projects going at work; but, I am relentlessly 
 studying just as many subjects at home.  The above is just part of the stack 

@@ -12,7 +12,7 @@ tags:
 - Jenkins
 - ProGet
 modified_time: '2014-04-26T23:23:50.561-07:00'
-thumbnail: http://3.bp.blogspot.com/-xzJFMfVgMs8/U1wpZjkQvyI/AAAAAAAAARw/2nhM2agjsLQ/s72-c/SnipImage+copy+4.JPG
+thumbnail: /images/SnipImage+copy+4.JPG
 ---
 
 Its always a bit of a joy when pet and client projects align on similar goals, 
@@ -79,7 +79,7 @@ stumped for a bit.  Visit your new site in your browser of choice, select
 "Browse Packages" and then click on the RSS Feed button on the presented 
 page.
 
-[<img border="0" src="http://3.bp.blogspot.com/-xzJFMfVgMs8/U1wpZjkQvyI/AAAAAAAAARw/2nhM2agjsLQ/s1600/SnipImage+copy+4.JPG" height="96" width="400" />](http://3.bp.blogspot.com/-xzJFMfVgMs8/U1wpZjkQvyI/AAAAAAAAARw/2nhM2agjsLQ/s1600/SnipImage+copy+4.JPG) 
+[<img border="0" src="/images/SnipImage+copy+4.JPG" height="96" width="400" />](/images/SnipImage+copy+4.JPG) 
 
 You will be presented with a page that has the Atom XML data, just grab 
 the Url and fire up Visual Studio.
@@ -88,13 +88,13 @@ The Visual Studio changes are a snap.  Under *Tools* -&gt; *NuGet Package
 Manager*, select "*Manage NuGet Packages for Solution*."  You will be 
 presented with the hopefully familiar screen:
 
-[<img border="0" src="http://3.bp.blogspot.com/-Pyvthj9PqLc/U1wqTVQ-E1I/AAAAAAAAAR4/NqftVA0BTLI/s1600/SnipImage+copy+2.JPG" height="265" width="400" />](http://3.bp.blogspot.com/-Pyvthj9PqLc/U1wqTVQ-E1I/AAAAAAAAAR4/NqftVA0BTLI/s1600/SnipImage+copy+2.JPG) 
+[<img border="0" src="/images/SnipImage+copy+2.JPG" height="265" width="400" />](/images/SnipImage+copy+2.JPG) 
 
 Clicking on *Settings* in the lower left corner will bring you to the 
 Visual Studio "*Options*" Window with *Package Sources* Settings in 
 focus.
 
-[<img border="0" src="http://3.bp.blogspot.com/-BKeGoAsUhWY/U1wq5vSpcbI/AAAAAAAAASA/WMrfD-sqsOI/s1600/SnipImage+copy+3.JPG" height="322" width="400" />](http://3.bp.blogspot.com/-BKeGoAsUhWY/U1wq5vSpcbI/AAAAAAAAASA/WMrfD-sqsOI/s1600/SnipImage+copy+3.JPG)
+[<img border="0" src="/images/SnipImage+copy+3.JPG" height="322" width="400" />](/images/SnipImage+copy+3.JPG)
 
 In the upper right corner click the "*+*" button and add the url you 
 copied from your browser earlier, and a name for your new NuGet Server.  
@@ -322,7 +322,7 @@ which we will run in this example.  Even though the NuGet script in Step 4
 also performs a build, the Nant build will generate the artifacts for the 
 binary repository.  And there is no real issue with building it twice. 
 
-[<img border="0" src="http://4.bp.blogspot.com/-EEf0j0jnxwU/U1xKbc12VQI/AAAAAAAAASQ/MLlSfDhzNpQ/s1600/SnipImage.JPG" height="286" width="640" />](http://4.bp.blogspot.com/-EEf0j0jnxwU/U1xKbc12VQI/AAAAAAAAASQ/MLlSfDhzNpQ/s1600/SnipImage.JPG) 
+[<img border="0" src="/images/SnipImage.JPG" height="286" width="640" />](/images/SnipImage.JPG) 
 
 Under the build in Jenkins we will configure the execution of out code 
 generation script.  Since the PowerShell script is not yet signed, we need to 
@@ -351,7 +351,7 @@ call out code generation script and follow that with the Nant build.
 Assuming compilation success we can add a post build task to 
 run our NuGet packaging script. 
 
-[<img border="0" src="http://3.bp.blogspot.com/-Nui9a7M0oKM/U1xMucveXJI/AAAAAAAAASc/22pxsb0qsyw/s1600/SnipImage+copy.JPG" height="276" width="640" />](http://3.bp.blogspot.com/-Nui9a7M0oKM/U1xMucveXJI/AAAAAAAAASc/22pxsb0qsyw/s1600/SnipImage+copy.JPG) 
+[<img border="0" src="/images/SnipImage+copy.JPG" height="276" width="640" />](/images/SnipImage+copy.JPG) 
 
 Again we need to set the environment execution policy to unrestricted. 
 

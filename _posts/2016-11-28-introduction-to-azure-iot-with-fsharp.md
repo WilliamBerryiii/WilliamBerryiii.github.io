@@ -11,7 +11,7 @@ tags:
 - PowerBI
 - F#
 modified_time: '2016-12-03T16:45:39.299-08:00'
-thumbnail: https://4.bp.blogspot.com/-u3COsNP0zc8/WDnCatDRReI/AAAAAAAAAdo/f8FpAYxhu3MeXtgrVLIkY3zZwLLYpPMYgCLcB/s72-c/Create.PNG
+thumbnail: /images/Create.PNG
 
 ---
 
@@ -105,7 +105,7 @@ days.
 Once you are logged into the portal select the `+` icon in the top left corner 
 of the screen and search for `IoT Hub`. 
 
-[<img border="0" height="640" src="https://4.bp.blogspot.com/-u3COsNP0zc8/WDnCatDRReI/AAAAAAAAAdo/f8FpAYxhu3MeXtgrVLIkY3zZwLLYpPMYgCLcB/s640/Create.PNG" width="460" />](https://4.bp.blogspot.com/-u3COsNP0zc8/WDnCatDRReI/AAAAAAAAAdo/f8FpAYxhu3MeXtgrVLIkY3zZwLLYpPMYgCLcB/s1600/Create.PNG) 
+[<img border="0" height="640" src="/images/Create.PNG" width="460" />](/images/Create.PNG) 
 
 After selecting the resource press `Create` in the lower left corner of the 
 newly presented blade. 
@@ -134,7 +134,7 @@ be persisted, even temporarily.  It is up to you, the developer, to maintain
 compliance with these regulations - consult legal aid if you do not fully 
 understand these requirements. 
 
-[<img border="0" height="576" src="https://3.bp.blogspot.com/-VXTZ-ymsCWs/WDnDFrCXRtI/AAAAAAAAAds/I0wr52lzzM8YHtXCMOtPjNAsd7nIAFtjQCLcB/s640/Initialize.PNG" width="640" />](https://3.bp.blogspot.com/-VXTZ-ymsCWs/WDnDFrCXRtI/AAAAAAAAAds/I0wr52lzzM8YHtXCMOtPjNAsd7nIAFtjQCLcB/s1600/Initialize.PNG) 
+[<img border="0" height="576" src="/images/Initialize.PNG" width="640" />](/images/Initialize.PNG) 
 
 After entering the IoT Hub configuration information, press `Create` - you 
 will be returned to the your Portal Dashboard while Azure sets up the Hub.  
@@ -151,7 +151,7 @@ In the section labeled `Overview`, copy the IoT Hub's `host name` value into
 the config.yaml file's `IoTHubUri` setting.  My IoTHubUri value will be 
 `iot-fsharp-hub.azure-devices.net`. 
 
-[<img border="0" height="226" src="https://3.bp.blogspot.com/-LfCCiOKJCbM/WDnNoCFK9oI/AAAAAAAAAeI/C67oKO--HygzfYff0FnHdxyVjz9mH91TgCLcB/s640/Overview.PNG" width="640" />](https://3.bp.blogspot.com/-LfCCiOKJCbM/WDnNoCFK9oI/AAAAAAAAAeI/C67oKO--HygzfYff0FnHdxyVjz9mH91TgCLcB/s1600/Overview.PNG) 
+[<img border="0" height="226" src="/images/Overview.PNG" width="640" />](/images/Overview.PNG) 
 
 Scroll down the list of sections until you find the `Shared access policies` 
 entry and click on it.  The blade will be extended with access accounts - 
@@ -164,7 +164,7 @@ Once the `iothubowner` entry is selected, a new blade will be presented with
 security information.  Copy the `Connection string - primary key` value into 
 the config.yaml file's 'ConnectionString` setting. 
 
-[<img border="0" height="448" src="https://2.bp.blogspot.com/-haPclwIbVyw/WDnMfUt6IXI/AAAAAAAAAeE/9W_47fDrfxMuZ7rDEGJplvd4gu4RZeqsgCLcB/s640/Security.PNG" width="640" />](https://2.bp.blogspot.com/-haPclwIbVyw/WDnMfUt6IXI/AAAAAAAAAeE/9W_47fDrfxMuZ7rDEGJplvd4gu4RZeqsgCLcB/s1600/Security.PNG) 
+[<img border="0" height="448" src="/images/Security.PNG" width="640" />](/images/Security.PNG) 
 
 Continuing with the laundry list of disclaimers ... note that the portal has 
 provided you with two (2) keys and two (2) corrosponding connection strings 
@@ -370,7 +370,7 @@ Log into the Azure Portal and search for `Event Hubs`.  The selection you are
 making is for the service to which we'll need to add an Event Hub to for the 
 project. 
 
-[<img border="0" height="354" src="https://2.bp.blogspot.com/-XueXElTlcbw/WDxW4T82trI/AAAAAAAAAek/Ooi5gldkU1IyFkbtZsIqDB6-Nl0pSofEwCLcB/s640/EventHubsCreatePNG.PNG" width="640" />](https://2.bp.blogspot.com/-XueXElTlcbw/WDxW4T82trI/AAAAAAAAAek/Ooi5gldkU1IyFkbtZsIqDB6-Nl0pSofEwCLcB/s1600/EventHubsCreatePNG.PNG) 
+[<img border="0" height="354" src="/images/EventHubsCreatePNG.PNG" width="640" />](/images/EventHubsCreatePNG.PNG) 
 
 After pressing `Create`, you'll see the main overview panel for the Event Hub 
 Service.  Scroll down to `Event Hubs`, press the `+ Event Hub` tab and enter 
@@ -378,7 +378,7 @@ in a name for the new Event Hub.  All the other settings can be left
 defaulted.  Note that this process will automatically add a storage account 
 with a name that is part hub name and part GUID. 
 
-[<img border="0" height="352" src="https://3.bp.blogspot.com/-5Ul6AhhHNeU/WDxXpFxOKMI/AAAAAAAAAeo/ojd89_gEsccOYi7V7kOXfgD5Sp56rAoQgCLcB/s640/CreateEHub.PNG" width="640" />](https://3.bp.blogspot.com/-5Ul6AhhHNeU/WDxXpFxOKMI/AAAAAAAAAeo/ojd89_gEsccOYi7V7kOXfgD5Sp56rAoQgCLcB/s1600/CreateEHub.PNG) 
+[<img border="0" height="352" src="/images/CreateEHub.PNG" width="640" />](/images/CreateEHub.PNG) 
 
 The new event hub will take a few minutes to deploy and will show up in the 
 center pane of the image above.  Once the event hub is displayed, select it 
@@ -389,7 +389,7 @@ for those tokens. Select the primary connection string and paste it into a
 text editor - we'll need to modify it slightly before using it in our 
 application. 
 
-[<img border="0" height="264" src="https://1.bp.blogspot.com/-H9T7QC-8TnA/WDxaL6cz5zI/AAAAAAAAAe8/Nz5Q3qJ7RJM7w3Um5-XdTcvbhM8GABZtACLcB/s640/eventhub-sas.png" width="640" />](https://1.bp.blogspot.com/-H9T7QC-8TnA/WDxaL6cz5zI/AAAAAAAAAe8/Nz5Q3qJ7RJM7w3Um5-XdTcvbhM8GABZtACLcB/s1600/eventhub-sas.png) 
+[<img border="0" height="264" src="/images/eventhub-sas.png" width="640" />](/images/eventhub-sas.png) 
 
 The connection string should look like this: 
 
@@ -406,7 +406,7 @@ pane containing the Event Hub interface information for the IoT Hub.  Copy
 both the `Event Hub-compatible name` and the `Event Hub-compatible endpoint` 
 strings and save them off to the aforementioned text file. 
 
-[<img border="0" height="640" src="https://3.bp.blogspot.com/-wYmmd778mvc/WDxg1Zjt_zI/AAAAAAAAAfk/rRRnvL1GNnUMFFQifFxVvgZ3qro2BpzfwCLcB/s640/IoTHub-Messaging.PNG" width="460" />](https://3.bp.blogspot.com/-wYmmd778mvc/WDxg1Zjt_zI/AAAAAAAAAfk/rRRnvL1GNnUMFFQifFxVvgZ3qro2BpzfwCLcB/s1600/IoTHub-Messaging.PNG) 
+[<img border="0" height="640" src="/images/IoTHub-Messaging.PNG" width="460" />](/images/IoTHub-Messaging.PNG) 
 
 Navigate back to `Shared access policies`, select the `iothubowner` policy and 
 copy the `Primary key` value into the text file. 
@@ -421,7 +421,7 @@ shown below.
 
 In the Portal, select the `+` icon in the top left and search for `Function App`. 
 
-[<img border="0" height="352" src="https://2.bp.blogspot.com/-KFl2ApZZXqs/WDxc95j9NYI/AAAAAAAAAfM/O_1VgSwbLywc2ucwClTBMVeNMAWeHh2_wCLcB/s640/Function-App-Select.PNG" width="640" />](https://2.bp.blogspot.com/-KFl2ApZZXqs/WDxc95j9NYI/AAAAAAAAAfM/O_1VgSwbLywc2ucwClTBMVeNMAWeHh2_wCLcB/s1600/Function-App-Select.PNG) 
+[<img border="0" height="352" src="/images/Function-App-Select.PNG" width="640" />](/images/Function-App-Select.PNG) 
 
 Press `Create` to kick off the deployment - the app should only take a few 
 moments to create. 
@@ -431,7 +431,7 @@ create C# and JavaScript functions.  Use the `+ New Function` tab in the upper
 left corner to reveal the full template list.  Using the language drop-down, 
 filter for only F# templates and select the `EventHubTrigger-FSharp` template. 
 
-[<img border="0" height="408" src="https://3.bp.blogspot.com/-Pv98-oqpgWw/WDxds6qmfZI/AAAAAAAAAfQ/eTMYgC3xPEkMXqCfkb30X32eyWDxOeRowCLcB/s640/Function-Template.PNG" width="640" />](https://3.bp.blogspot.com/-Pv98-oqpgWw/WDxds6qmfZI/AAAAAAAAAfQ/eTMYgC3xPEkMXqCfkb30X32eyWDxOeRowCLcB/s1600/Function-Template.PNG) 
+[<img border="0" height="408" src="/images/Function-Template.PNG" width="640" />](/images/Function-Template.PNG) 
 
 With the `EventHubTrigger-FSharp` template selected, a pane will show up below 
 the templates prompting for input data. 
@@ -442,7 +442,7 @@ file in the previous section. Continue by pressing the `new` button next to
 the `Event Hub connection` text box.  This will present a new blade where 
 we'll enter the connection string for the Event Hub interface of the IoT Hub. 
 
-[<img border="0" height="308" src="https://1.bp.blogspot.com/-Vy4YLDzM8jw/WDxiElPgbFI/AAAAAAAAAfs/T_NVq6EguYMaAxQhP0edImQ8UZ5IuMrMQCLcB/s640/Function-ConnectionString.PNG" width="640" />](https://1.bp.blogspot.com/-Vy4YLDzM8jw/WDxiElPgbFI/AAAAAAAAAfs/T_NVq6EguYMaAxQhP0edImQ8UZ5IuMrMQCLcB/s1600/Function-ConnectionString.PNG)
+[<img border="0" height="308" src="/images/Function-ConnectionString.PNG" width="640" />](/images/Function-ConnectionString.PNG)
 
 In the text file paste this template connection string and add the values 
 saved off earlier: 
@@ -462,13 +462,13 @@ that can safely be ignored for now.
 Select the `Integrate` tab under the Function and update the `Event parameter 
 name` to `input` and press `Save`. 
 
-[<img border="0" height="308" src="https://2.bp.blogspot.com/-b9UPaxgqKyU/WDxsifgX0TI/AAAAAAAAAgI/2bY2JwPt4z49_3UnC09BY8gcu4Fgs-XdACLcB/s640/Function-input.PNG" width="640" />](https://2.bp.blogspot.com/-b9UPaxgqKyU/WDxsifgX0TI/AAAAAAAAAgI/2bY2JwPt4z49_3UnC09BY8gcu4Fgs-XdACLcB/s1600/Function-input.PNG) 
+[<img border="0" height="308" src="/images/Function-input.PNG" width="640" />](/images/Function-input.PNG) 
 
 Click back to the `Develop` tab and update the Run function's first parameter 
 name, as well as it's use in the log statement, to `input`.  Press `Save and 
 run`.  The Function should compile and execute. 
 
-[<img border="0" height="134" src="https://3.bp.blogspot.com/-bETeVMO3YIo/WDxtd14xT-I/AAAAAAAAAgM/6mKY5hXZeQc7fun-5R7MXNWrc6SuYEZ5wCLcB/s640/Function-input-updatePNG.PNG" width="640" />](https://3.bp.blogspot.com/-bETeVMO3YIo/WDxtd14xT-I/AAAAAAAAAgM/6mKY5hXZeQc7fun-5R7MXNWrc6SuYEZ5wCLcB/s1600/Function-input-updatePNG.PNG) 
+[<img border="0" height="134" src="/images/Function-input-updatePNG.PNG" width="640" />](/images/Function-input-updatePNG.PNG) 
 
 In order to post the shredded messages to our Event Hub, we'll need the 
 WindowsAzure.ServiceBus Nuget package.  Thankfully, the Functions service 
@@ -525,7 +525,7 @@ run`.
 The function app will re-compile and execute on the test data, producing a log 
 output like so: 
 
-[<img border="0" height="226" src="https://3.bp.blogspot.com/-SvDl75fap_g/WDxyzCR7igI/AAAAAAAAAgk/1QeAaby-NiAokJVeLTYMg-SIEt65p22GACLcB/s320/Function-output.png" width="320" />](https://3.bp.blogspot.com/-SvDl75fap_g/WDxyzCR7igI/AAAAAAAAAgk/1QeAaby-NiAokJVeLTYMg-SIEt65p22GACLcB/s1600/Function-output.png) 
+[<img border="0" height="226" src="/images/Function-output.png" width="320" />](/images/Function-output.png) 
 
 ## Azure Stream Analytics 
 With the Azure Function properly decompressing and 
@@ -538,13 +538,13 @@ Back in the Portal, select the `+` icon in the upper left corner and Search
 for `Stream Analytics`.  Select `Stream Analytics Job` and press `Create` in 
 the new blade. 
 
-[<img border="0" height="344" src="https://4.bp.blogspot.com/-iydmH9RQhCs/WDx1QLRJpZI/AAAAAAAAAgw/UHd7XuSdoXMbL-dyLvd9FmRZJrY0X0WxQCLcB/s640/ASA-init.PNG" width="640" />](https://4.bp.blogspot.com/-iydmH9RQhCs/WDx1QLRJpZI/AAAAAAAAAgw/UHd7XuSdoXMbL-dyLvd9FmRZJrY0X0WxQCLcB/s1600/ASA-init.PNG) 
+[<img border="0" height="344" src="/images/ASA-init.PNG" width="640" />](/images/ASA-init.PNG) 
  
 The Portal will present a new configuration blade that requires a `Job name`; 
 be sure to add the job to the existing resource group for cleanup later. Press 
 `Create` to kick off the deployment of the Stream Analytics Job. 
 
-[<img border="0" height="640" src="https://3.bp.blogspot.com/-wccysSSvLes/WDx1z-7z8II/AAAAAAAAAg0/JbkT_nITRlUePfizNWRepm2h1R3FW1FwACLcB/s640/ASA-create.PNG" width="260" />](https://3.bp.blogspot.com/-wccysSSvLes/WDx1z-7z8II/AAAAAAAAAg0/JbkT_nITRlUePfizNWRepm2h1R3FW1FwACLcB/s1600/ASA-create.PNG) 
+[<img border="0" height="640" src="/images/ASA-create.PNG" width="260" />](/images/ASA-create.PNG) 
 
 Once the deployment completes, select the `Inputs` tab of the ASA job.  Press 
 the `+ Add` button at the top of the new pane and enter the following 
@@ -565,7 +565,7 @@ consumer group
 1. Event serialization format - select JSON from the dropdown 
 1. Encoding - leave it set to `UTF-8` 
 
-[<img border="0" height="430" src="https://4.bp.blogspot.com/-vC0bhvNE2zc/WDx3zQMhC6I/AAAAAAAAAg8/2F8t9b6T7TI2XLooA5AiaeXKWQEEOcXeACLcB/s640/ASA-input.PNG" width="640" />](https://4.bp.blogspot.com/-vC0bhvNE2zc/WDx3zQMhC6I/AAAAAAAAAg8/2F8t9b6T7TI2XLooA5AiaeXKWQEEOcXeACLcB/s1600/ASA-input.PNG) 
+[<img border="0" height="430" src="/images/ASA-input.PNG" width="640" />](/images/ASA-input.PNG) 
 
 Press `Create` to complete the input definition. 
 Select the `Outputs` tab and press the `+ Add` button at the top of the 
@@ -574,7 +574,7 @@ portal will ask for Authorization to wire itself up to a PowerBi subscription.
  If you don't already have a PowerBI account you can create one for free on 
 the [PowerBI Getting Started page](https://powerbi.microsoft.com/en-us/get-started/).   
 
-[<img border="0" height="428" src="https://1.bp.blogspot.com/-ST3Ps9_32fU/WDx4-VHfomI/AAAAAAAAAhI/Cs1rhdEwv8MIfRrlxPGWNdJDloEW115oQCLcB/s640/asa-powerbi-out.PNG" width="640" />](https://1.bp.blogspot.com/-ST3Ps9_32fU/WDx4-VHfomI/AAAAAAAAAhI/Cs1rhdEwv8MIfRrlxPGWNdJDloEW115oQCLcB/s1600/asa-powerbi-out.PNG) 
+[<img border="0" height="428" src="/images/asa-powerbi-out.PNG" width="640" />](/images/asa-powerbi-out.PNG) 
 
 `Authorize` the Portal to connect to PowerBI which will re-direct you to 
 an MSA login screen.  Once the login process is completed, the Portal will 
@@ -582,7 +582,7 @@ redirect you to complete wiring up the ASA job output.  For the `Group
 Workspace` drop-down select `My Workspace` and enter new names for the 
 `DataSet Name` and `Table Name` fields. 
 
-[<img border="0" height="640" src="https://4.bp.blogspot.com/-gvZaMzkdE1Q/WDx4-dUerTI/AAAAAAAAAhM/otIR2lrYeiIFlqn2OCaBFr0cu3VWYjMVwCEw/s640/ASA-post-auth.PNG" width="260" />](https://4.bp.blogspot.com/-gvZaMzkdE1Q/WDx4-dUerTI/AAAAAAAAAhM/otIR2lrYeiIFlqn2OCaBFr0cu3VWYjMVwCEw/s1600/ASA-post-auth.PNG) 
+[<img border="0" height="640" src="/images/ASA-post-auth.PNG" width="260" />](/images/ASA-post-auth.PNG) 
 
 With the output defined we can complete the ASA job set up by building 
 the query that will shape our data for PowerBI consumption.  Remember that our 
@@ -603,7 +603,7 @@ Flip back to Visual Studio, set the Device Simulator as the startup
 application and run it.  After a few minutes you should start to see 
 Monitoring Events on the ASA overview page. 
 
-[<img border="0" height="640" src="https://2.bp.blogspot.com/-jCRPaLd9BXk/WDyL7kwLNiI/AAAAAAAAAhY/PZN7SYIhfY0r8TNNiwe6spKyGCg799NSgCLcB/s640/ASA-running.PNG" width="554" />](https://2.bp.blogspot.com/-jCRPaLd9BXk/WDyL7kwLNiI/AAAAAAAAAhY/PZN7SYIhfY0r8TNNiwe6spKyGCg799NSgCLcB/s1600/ASA-running.PNG) 
+[<img border="0" height="640" src="/images/ASA-running.PNG" width="554" />](/images/ASA-running.PNG) 
 
 ## Power BI
 The final step in out F# &amp; IoT exploration is to visualize our 
@@ -614,13 +614,13 @@ Log into PowerBI and in the left pane scroll down to `Datasets`, further
 selecting `Streaming datasets`.  This will bring up a menu of the available 
 streaming dataset, one of which should be the output of the ASA job. 
 
-[<img border="0" height="188" src="https://1.bp.blogspot.com/-th0tZ2Uk5KE/WDyNsojdnCI/AAAAAAAAAhg/PoqMTpDqbRY7SZ_0qdVreWQqCZNy6Mv8QCLcB/s640/PBI-SDS.PNG" width="640" />](https://1.bp.blogspot.com/-th0tZ2Uk5KE/WDyNsojdnCI/AAAAAAAAAhg/PoqMTpDqbRY7SZ_0qdVreWQqCZNy6Mv8QCLcB/s1600/PBI-SDS.PNG) 
+[<img border="0" height="188" src="/images/PBI-SDS.PNG" width="640" />](/images/PBI-SDS.PNG) 
 
 On the far right on the IoT dataset, press the `Create Report` icon.  You will 
 be redirected to a new blank report.  From the Visualizations fly-out on the 
 right, select the regular "Map" visualization. 
 
-[<img border="0" height="162" src="https://2.bp.blogspot.com/-Kp41JyU_Qyk/WDyO3DlA12I/AAAAAAAAAhw/vhgPzAJMZB0RRxqJpdSQVyLwI16tn-8pgCLcB/s640/PBI-map.PNG" width="640" />](https://2.bp.blogspot.com/-Kp41JyU_Qyk/WDyO3DlA12I/AAAAAAAAAhw/vhgPzAJMZB0RRxqJpdSQVyLwI16tn-8pgCLcB/s1600/PBI-map.PNG) 
+[<img border="0" height="162" src="/images/PBI-map.PNG" width="640" />](/images/PBI-map.PNG) 
 
 To create the geographic map: 
 
@@ -630,7 +630,7 @@ To create the geographic map:
 1. Drag windspeed to Size, select the twill and set the value to the `Average` 
 The resulting graph will look like this: 
 
-[<img border="0" height="334" src="https://3.bp.blogspot.com/-uDplBUgCm8k/WDyUkJQPzDI/AAAAAAAAAiM/g24Jqqb0lC0Bs_rm7rkVOa4hrVnAB860wCLcB/s640/geo-graph.png" width="640" />](https://3.bp.blogspot.com/-uDplBUgCm8k/WDyUkJQPzDI/AAAAAAAAAiM/g24Jqqb0lC0Bs_rm7rkVOa4hrVnAB860wCLcB/s1600/geo-graph.png) 
+[<img border="0" height="334" src="/images/geo-graph.png" width="640" />](/images/geo-graph.png) 
 
 To generate the historical speed chart, add a line chart to the report 
 and set the following values:1. Axis - osbTime 
@@ -638,7 +638,7 @@ and set the following values:1. Axis - osbTime
 1. Values - Average of windSpeed 
 With a bit of filtering you'll end up with a report like so:
  
-[<img border="0" height="384" src="https://3.bp.blogspot.com/-6oAqxslxZSI/WDyXPvBkWFI/AAAAAAAAAic/UoaRaUJLYJ0RP6OaPnfQOqXIOT-dUIXXwCLcB/s640/Full-pbi.png" width="640" />](https://3.bp.blogspot.com/-6oAqxslxZSI/WDyXPvBkWFI/AAAAAAAAAic/UoaRaUJLYJ0RP6OaPnfQOqXIOT-dUIXXwCLcB/s1600/Full-pbi.png)
+[<img border="0" height="384" src="/images/Full-pbi.png" width="640" />](/images/Full-pbi.png)
 
 ## Conclusion   
 I hope this tutorial has illuminated some of the ways that F# 

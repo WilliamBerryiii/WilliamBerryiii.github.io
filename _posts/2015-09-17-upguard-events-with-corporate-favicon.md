@@ -37,7 +37,7 @@ So plan on exploring this feature and folding it into your automation early in
 your integration journey.
 
 What we are going to accomplish is the following:
-[<img border="0" height="400" src="http://3.bp.blogspot.com/-PcgEWAAoGq0/VfurDRagyPI/AAAAAAAAAY0/zEV-EwywIYE/s400/ScriptrockTimeline.PNG" width="300" />](http://3.bp.blogspot.com/-PcgEWAAoGq0/VfurDRagyPI/AAAAAAAAAY0/zEV-EwywIYE/s1600/ScriptrockTimeline.PNG)
+[<img border="0" height="400" src="/images/ScriptrockTimeline.PNG" width="300" />](/images/ScriptrockTimeline.PNG)
 
 See that sweet 
 logo in both the timeline and the popup?  Well that's harvested from my 

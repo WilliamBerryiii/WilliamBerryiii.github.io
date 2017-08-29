@@ -50,7 +50,7 @@ this space scan applied.
 1. Enter the name for the query, enter 'DeviceId' as the Key Name, paste the 
 Powershell into the Query section and accept the change. 
 1. Scroll to the bottom of the scan option pane and press 'Save'. 
-[<img border="0" height="322" src="http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s640/DiskSpace.png" width="640" />](http://1.bp.blogspot.com/-TjeZaJCKtcI/VilHDFkbPvI/AAAAAAAAAbk/xuIHtdElh0o/s1600/DiskSpace.png) 
+[<img border="0" height="322" src="/images/DiskSpace.png" width="640" />](/images/DiskSpace.png) 
 
 On the next scan of your environment, UpGuard will pickup the baseline for 
 this value and on subsequent scans tasks will be created if the value changes. 

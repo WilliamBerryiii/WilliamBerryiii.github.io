@@ -54,7 +54,7 @@ compliance, etc., into account.  The goal is to have something, or a
 collection of somethings generated at predetermined intervals for use as a 
 yard stick in measuring forward business progress. 
 
-[<img border="0" src="https://s-media-cache-ak0.pinimg.com/236x/99/95/fc/9995fc5ecf7abe34582a61c8205a295e.jpg" />](https://s-media-cache-ak0.pinimg.com/236x/99/95/fc/9995fc5ecf7abe34582a61c8205a295e.jpg)"I 
+[<img border="0" src="/images/9995fc5ecf7abe34582a61c8205a295e.jpg" />](/images/9995fc5ecf7abe34582a61c8205a295e.jpg)"I 
 only write code", you say or ... 
 "I'm just a product owner." 
 "Business is not my thing." 

@@ -58,11 +58,11 @@ The last step is to add this script to our custom query section and set a Key
 Name to NetConnectionID so that each eligible NIC is listed under it common 
 name. 
 
-[<img border="0" height="156" src="http://2.bp.blogspot.com/-G8_LRFAf7F0/Vo7ivMl7tmI/AAAAAAAAAcA/fMAmDdEjqOA/s640/NetworkAdapters.PNG" width="640" />](http://2.bp.blogspot.com/-G8_LRFAf7F0/Vo7ivMl7tmI/AAAAAAAAAcA/fMAmDdEjqOA/s1600/NetworkAdapters.PNG) 
+[<img border="0" height="156" src="/images/NetworkAdapters.PNG" width="640" />](/images/NetworkAdapters.PNG) 
 
 With our query configured, our next scan will produce the output below. 
 
-[<img border="0" height="80" src="http://4.bp.blogspot.com/-MZtqNEX6jW4/Vo7jJKgJj0I/AAAAAAAAAcI/d4x6k3NH3_I/s200/NetworkAdapters2.PNG" width="200" />](http://4.bp.blogspot.com/-MZtqNEX6jW4/Vo7jJKgJj0I/AAAAAAAAAcI/d4x6k3NH3_I/s1600/NetworkAdapters2.PNG) 
+[<img border="0" height="80" src="/images/NetworkAdapters2.PNG" width="200" />](/images/NetworkAdapters2.PNG) 
 
 With that we are done, Happy UpGuard'in !<div> 
 
