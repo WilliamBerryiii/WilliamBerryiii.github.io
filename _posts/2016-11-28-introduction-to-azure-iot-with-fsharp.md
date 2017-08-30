@@ -12,6 +12,7 @@ tags:
 - F#
 modified_time: '2016-12-03T16:45:39.299-08:00'
 thumbnail: /images/Create.PNG
+description: A detailed tutorial on leveraging F# for Azure IoT Projects.
 
 ---
 
