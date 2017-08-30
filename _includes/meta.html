@@ -12,7 +12,25 @@
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_username">
+    <meta name="twitter:creator" content="@creator_username">
     {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
+      <meta property="og:title" content="{{ page.title }}" />
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+      <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+      <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+      <meta name="twitter:image:src" content="{{ site.url }}/{{ page.thumbnail }}">
+    {% else %}
+      <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/4399970?v=4&u=5fad2db6d03f1ea00ae5cb412727a0132bedc29c&s=400">
     {% endif %}
