@@ -15,7 +15,7 @@ thumbnail: /images/AzureCli.PNG
 description: Instructions on getting started with IoT Hub managment using Azure CLI v2 
 ---
 
-[<img align="left" border="0" padding="10" height="166" src="/images/AzureCli.PNG" width="320" />](/images/AzureCli.PNG) Version 2 of the Azure CLI was released recently and with the added power of PowerShell, we can accomplish some truly amazing things! 
+[<img align="left" border="0" margin="10" height="166" src="/images/AzureCli.PNG" width="320" />](/images/AzureCli.PNG) Version 2 of the Azure CLI was released recently and with the added power of PowerShell, we can accomplish some truly amazing things! 
 
 To get started download Python 3.5 and install it using the relevant platform 
 link [here](https://www.python.org/downloads/release/python-353/).  I prefer 
