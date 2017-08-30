@@ -11,9 +11,7 @@ tags:
 modified_time: '2016-12-30T18:07:00.549-08:00'
 ---
 
-[<img border="0" height="200" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="200" />](https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png)
-
-I've been working with the [Azure IoT Gateway SDK](https://github.com/Azure/azure-iot-gateway-sdk) quite a bit lately and 
+[<img border="0" height="200" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="200" />](https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png) I've been working with the [Azure IoT Gateway SDK](https://github.com/Azure/azure-iot-gateway-sdk) quite a bit lately and 
 the project setup experience is not only repetitive, but also somewhat error 
 prone.  Make a dozen settings changes here. Forget a setting there. Edit a few 
 CmakeLists files.\Watch the build explode. Fix. Build AGAIN. Rinse and repeat. 
