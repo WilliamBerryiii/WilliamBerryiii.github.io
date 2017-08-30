@@ -16,18 +16,7 @@ description: A detailed tutorial on leveraging F# for Azure IoT Projects.
 
 ---
 
-[<img border="0" src="http://fsharp.org/img/logo/fsharp128.png" />](http://fsharp.org/img/logo/fsharp128.png)
-## Requirements:1. IDE/Editor with 
-Fsharp capabilities, e.g. Visual Studio or VS Code with Ionide plugin. 
-
-1. Azure Subscription. 
-1. Nuget or Paket 
-
-## Estimated Completion Time: 2-3 hours
-
-## A Brief Introduction 
-
-Beating the drum of strongly typed function programming in the land of IoT is the textbook 
+[<img align="left" border="0" src="http://fsharp.org/img/logo/fsharp128.png" />](http://fsharp.org/img/logo/fsharp128.png) Beating the drum of strongly typed function programming in the land of IoT is the textbook 
 definition of counterculture.  Embedded systems have been written in 
 "high-level" languages like C/C++ forever.  New players to the IoT market 
 yearn for broad-based adoption and think the only way to drive developer 
@@ -43,6 +32,14 @@ an Azure IoT solution.
 
 Happy Coding, 
 Bill 
+
+## Requirements:1. IDE/Editor with 
+Fsharp capabilities, e.g. Visual Studio or VS Code with Ionide plugin. 
+
+1. Azure Subscription. 
+1. Nuget or Paket 
+
+## Estimated Completion Time: 2-3 hours
 
 ## Other Azure F# Resources
 
