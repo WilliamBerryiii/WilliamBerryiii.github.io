@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Architecture Made Easy
 date: '2014-03-28T06:00:00.000-07:00'
 author: William Berry
 tags:
